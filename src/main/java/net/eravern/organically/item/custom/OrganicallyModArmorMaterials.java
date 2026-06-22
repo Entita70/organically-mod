@@ -1,6 +1,7 @@
 package net.eravern.organically.item.custom;
 
 import net.eravern.organically.OrganicallyMod;
+import net.eravern.organically.item.OrganicallyModItems;
 import net.minecraft.item.ArmorItem;
 import net.minecraft.item.ArmorMaterial;
 import net.minecraft.item.Items;
@@ -24,7 +25,7 @@ public class OrganicallyModArmorMaterials {
                 map.put(ArmorItem.Type.CHESTPLATE, 5);
                 map.put(ArmorItem.Type.HELMET, 1);
                 map.put(ArmorItem.Type.BODY, 8);
-            }), 10, SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, () -> Ingredient.ofItems(Items.LEATHER),
+            }), 10, SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, () -> Ingredient.ofItems(OrganicallyModItems.SANDSTRIDER_SCALE),
                     List.of(new ArmorMaterial.Layer(Identifier.of(OrganicallyMod.MOD_ID, "sandstrider"))),
                     0, 0));
 
