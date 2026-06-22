@@ -13,7 +13,7 @@ import net.minecraft.world.World;
 import org.jetbrains.annotations.Nullable;
 
 public class LionfishSpikeEntity extends PersistentProjectileEntity {
-    private int duration = 220;
+    private int duration = 120;
 
     public LionfishSpikeEntity(EntityType<? extends  LionfishSpikeEntity> entityType, World world) {
         super(entityType, world);
