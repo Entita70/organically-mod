@@ -3,7 +3,7 @@
 	"id": "organicallymod",
 	"version": "${version}",
 	"name": "Organically Mod",
-	"description": "Mod that aims to add neat additions to various vanilla biomes and regions",
+	"description": "Mod that aims to add various features that organically fit into the minecraft world",
 	"authors": [
 		"Eravern"
 	],
