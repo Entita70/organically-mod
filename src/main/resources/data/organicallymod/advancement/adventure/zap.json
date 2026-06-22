@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "id": "organicallymod:lionfish_spike"
+    },
+    "title": {
+      "translate": "advancements.adventure.zap.title"
+    },
+    "description": {
+      "translate": "advancements.adventure.zap.description"
+    }
+  },
+  "parent": "minecraft:adventure/shoot_arrow",
+  "criteria": {
+    "hit_with_spike": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "damage": {
+          "type": {
+            "tags": [
+              {
+                "id": "minecraft:is_projectile",
+                "expected": true
+              }
+            ],
+            "direct_entity": {
+              "type": "organicallymod:lionfish_spike"
+            }
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "hit_with_spike"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

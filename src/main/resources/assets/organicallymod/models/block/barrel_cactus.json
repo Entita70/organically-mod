@@ -1,0 +1,32 @@
+{   "parent": "block/block",
+	"format_version": "1.9.0",
+	"texture_size": [32, 32],
+	"textures": {
+		"0": "organicallymod:block/barrel_cactus",
+		"particle": "organicallymod:block/barrel_cactus"
+	},
+	"elements": [
+		{
+			"from": [3, 0, 3],
+			"to": [13, 8, 13],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7, 0, 7]},
+			"faces": {
+				"north": {"uv": [5, 0, 10, 4], "texture": "#0"},
+				"east": {"uv": [5, 0, 10, 4], "texture": "#0"},
+				"south": {"uv": [5, 0, 10, 4], "texture": "#0"},
+				"west": {"uv": [5, 0, 10, 4], "texture": "#0"},
+				"up": {"uv": [5, 5, 0, 0], "texture": "#0"},
+				"down": {"uv": [10, 4, 5, 9], "texture": "#0"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "cactus",
+			"origin": [8, 8, 8],
+			"scope": 0,
+			"color": 0,
+			"children": [0]
+		}
+	]
+}

@@ -1,0 +1,51 @@
+{
+	"format_version": "1.9.0",
+	"ambientocclusion": false,
+	"textures": {
+		"0": "minecraft:block/flower_pot",
+		"1": "organicallymod:block/potted_barrel_cactus",
+		"particle": "minecraft:block/flower_pot"
+	},
+	"elements": [
+		{
+			"from": [5, 0, 5],
+			"to": [11, 6, 11],
+			"faces": {
+				"north": {"uv": [5, 10, 11, 16], "texture": "#0"},
+				"east": {"uv": [5, 10, 11, 16], "texture": "#0"},
+				"south": {"uv": [5, 10, 11, 16], "texture": "#0"},
+				"west": {"uv": [5, 10, 11, 16], "texture": "#0"},
+				"up": {"uv": [5, 5, 11, 11], "texture": "#0"},
+				"down": {"uv": [5, 5, 6, 11], "texture": "#0", "cullface": "down"}
+			}
+		},
+		{
+			"from": [6, 6, 6],
+			"to": [10, 10, 10],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 1, 0]},
+			"faces": {
+				"north": {"uv": [4, 0, 8, 4], "texture": "#1"},
+				"east": {"uv": [4, 0, 8, 4], "texture": "#1"},
+				"south": {"uv": [4, 0, 8, 4], "texture": "#1"},
+				"west": {"uv": [4, 0, 8, 4], "texture": "#1"},
+				"up": {"uv": [4, 4, 0, 0], "texture": "#1", "cullface": "up"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "flower_pot",
+			"origin": [8, 8, 8],
+			"scope": 0,
+			"color": 0,
+			"children": [0]
+		},
+		{
+			"name": "cactus",
+			"origin": [8, 8, 8],
+			"scope": 0,
+			"color": 0,
+			"children": [1]
+		}
+	]
+}

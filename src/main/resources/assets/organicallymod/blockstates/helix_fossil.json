@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=west": {
+      "model": "organicallymod:block/helix_fossil",
+      "y": 270
+    },
+    "facing=south": {
+      "model": "organicallymod:block/helix_fossil",
+      "y": 180
+    },
+    "facing=north": {
+      "model": "organicallymod:block/helix_fossil"
+    },
+    "facing=east": {
+      "model": "organicallymod:block/helix_fossil",
+      "y": 90
+    }
+  }
+}

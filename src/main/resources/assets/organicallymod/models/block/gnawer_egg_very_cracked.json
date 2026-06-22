@@ -1,0 +1,9 @@
+{
+	"parent": "organicallymod:block/gnawer_egg",
+	"textures": {
+		"side": "organicallymod:block/gnawer_egg_side_very_cracked",
+		"top": "organicallymod:block/gnawer_egg_top_very_cracked",
+		"bottom": "organicallymod:block/gnawer_egg_bottom",
+		"particle": "organicallymod:block/gnawer_egg_side_very_cracked"
+	}
+}

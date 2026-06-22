@@ -1,0 +1,9 @@
+{
+	"parent": "minecraft:block/slab",
+	"textures": {
+		"bottom": "organicallymod:block/palm_planks",
+		"side": "organicallymod:block/palm_planks",
+		"top": "organicallymod:block/palm_planks"
+
+	}
+}

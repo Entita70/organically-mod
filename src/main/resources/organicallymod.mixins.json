@@ -1,0 +1,21 @@
+{
+  "required": true,
+  "package": "net.eravern.organically.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "BoatDropsMixin",
+    "BoatTypeMixin",
+    "ChestBoatDropsMixin",
+    "FoliagePlacerTypeInvokerMixin",
+    "TreeDecoratorTypeInvokerMixin",
+    "TrunkPlacerTypeInvokerMixin"
+  ],
+  "client": [],
+  "server": [],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+	}
+}

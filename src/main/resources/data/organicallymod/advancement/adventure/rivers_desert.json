@@ -1,0 +1,43 @@
+{
+  "display": {
+    "icon": {
+      "id": "organicallymod:desert_rose_cluster"
+    },
+    "title": {
+      "translate": "advancements.adventure.rivers_desert.title"
+    },
+    "description": {
+      "translate": "advancements.adventure.rivers_desert.description"
+    }
+  },
+  "parent": "minecraft:adventure/root",
+  "criteria": {
+    "obtain_desert_rose": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "organicallymod:desert_rose_cluster"
+          }
+        ]
+      }
+    },
+    "obtain_mesa_rose": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "organicallymod:mesa_rose_cluster"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "obtain_mesa_rose",
+      "obtain_desert_rose"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

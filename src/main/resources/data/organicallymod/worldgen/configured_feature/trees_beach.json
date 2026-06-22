@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "default": {
+      "feature": "organicallymod:palm",
+      "placement": []
+    },
+    "features": [
+      {
+        "chance": 0.2,
+        "feature": {
+          "feature": "organicallymod:tall_palm",
+          "placement": []
+        }
+      }
+    ]
+  }
+}

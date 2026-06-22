@@ -1,0 +1,108 @@
+{
+
+
+  "item.organicallymod.lionfish" : "Lionfish",
+  "item.organicallymod.cooked_lionfish" : "Cooked Lionfish",
+  "item.organicallymod.lionfish_spike" : "Lionfish Spike",
+  "item.organicallymod.lionfish_bucket" : "Bucket of Lionfish",
+  "item.organicallymod.lionfish_spawn_egg" : "Lionfish Spawn Egg",
+  "item.organicallymod.sandstrider_spawn_egg" : "Sandstrider Spawn Egg",
+  "item.organicallymod.gnawer_spawn_egg" : "Gnawer Spawn Egg",
+  "item.organicallymod.coconut" : "Coconut",
+  "item.organicallymod.coconut_slice" : "Coconut Slice",
+  "item.organicallymod.palm_salad" : "Palm Salad",
+  "item.organicallymod.sandstrider_scale" : "Sandstrider Scale",
+  "item.organicallymod.sandstrider_boots" : "Sandstrider Boots",
+  "item.organicallymod.trowel" : "Trowel",
+  "item.organicallymod.fluorescent_mucus" : "Fluorescent Mucus",
+  "item.organicallymod.calcium" : "Calcium",
+  "item.organicallymod.active_powder" : "Active Powder",
+  "item.organicallymod.palm_sign" : "Palm Sign",
+  "item.organicallymod.palm_hanging_sign" : "Palm Hanging Sign",
+  "item.organicallymod.palm_boat" : "Palm Boat",
+  "item.organicallymod.palm_chest_boat" : "Palm Chest Boat",
+
+
+  "block.organicallymod.sprouted_coconut" : "Sprouted Coconut",
+  "block.organicallymod.coconut" : "Coconut",
+  "block.organicallymod.coconut_crop" : "Coconut",
+  "block.organicallymod.coconut_lamp" : "Coconut Lamp",
+  "block.organicallymod.palm_crown" : "Palm Crown",
+  "block.organicallymod.palm_log" : "Palm Log",
+  "block.organicallymod.palm_wood" : "Palm Wood",
+  "block.organicallymod.stripped_palm_log" : "Stripped Palm Log",
+  "block.organicallymod.stripped_palm_wood" : "Stripped Palm Wood",
+  "block.organicallymod.palm_planks" : "Palm Planks",
+  "block.organicallymod.palm_stairs" : "Palm Stairs",
+  "block.organicallymod.palm_slab" : "Palm Slab",
+  "block.organicallymod.palm_leaves" : "Palm Leaves",
+  "block.organicallymod.palm_fence" : "Palm Fence",
+  "block.organicallymod.palm_fence_gate" : "Palm Fence Gate",
+  "block.organicallymod.palm_door" : "Palm Door",
+  "block.organicallymod.palm_trapdoor" : "Palm Trapdoor",
+  "block.organicallymod.palm_button" : "Palm Button",
+  "block.organicallymod.palm_pressure_plate" : "Palm Pressure Plate",
+  "block.organicallymod.palm_sign" : "Palm Sign",
+  "block.organicallymod.palm_wall_sign" : "Palm Sign",
+  "block.organicallymod.palm_hanging_sign" : "Palm Hanging Sign",
+  "block.organicallymod.palm_hanging_wall_sign" : "Palm Hanging Sign",
+  "block.organicallymod.fluorescent_block" : "Fluorescent Block",
+
+
+
+  "block.organicallymod.brittlebush" : "Brittlebush",
+  "block.organicallymod.desert_marigolds" : "Desert Marigolds",
+  "block.organicallymod.potted_desert_marigolds" : "Potted Desert Marigolds",
+  "block.organicallymod.desert_shaggy_mane" : "Desert Shaggy Mane",
+  "block.organicallymod.potted_desert_shaggy_mane" : "Potted Desert Shaggy Mane",
+  "block.organicallymod.desert_shaggy_mane_block" : "Desert Shaggy Mane Block",
+  "block.organicallymod.barrel_cactus" : "Barrel Cactus",
+  "block.organicallymod.potted_barrel_cactus" : "Potted Barrel Cactus",
+  "block.organicallymod.triodia" : "Triodia",
+  "block.organicallymod.potted_triodia" : "Potted Triodia",
+  "block.organicallymod.snake_plant" : "Snake Plant",
+  "block.organicallymod.potted_snake_plant" : "Potted Snake Plant",
+
+  "block.organicallymod.fossil_clump" : "Fossil Clump",
+  "block.organicallymod.helix_fossil" : "Helix Fossil",
+  "block.organicallymod.pointy_fossil" : "Pointy Fossil",
+  "block.organicallymod.gnawer_egg" : "Gnawer Egg",
+
+
+  "block.organicallymod.active_desert_rose_cluster" : "Active Desert Rose Cluster",
+  "block.organicallymod.active_mesa_rose_cluster" : "Active Mesa Rose Cluster",
+  "block.organicallymod.desert_rose_cluster_block" : "Desert Rose Cluster Block",
+  "block.organicallymod.desert_rose_cluster" : "Desert Rose Cluster",
+  "block.organicallymod.mesa_rose_cluster" : "Mesa Rose Cluster",
+  "block.organicallymod.mesa_rose_cluster_block" : "Mesa Rose Cluster Block",
+
+
+
+
+
+
+  "entity.organicallymod.lionfish_spike" : "Lionfish Spike",
+  "entity.organicallymod.lionfish" : "Lionfish",
+  "entity.organicallymod.sandstrider" : "Sandstrider",
+  "entity.organicallymod.gnawer" : "Gnawer",
+
+
+  "effect.organicallymod.electrified" : "Electrified",
+
+  "death.attack.electric" : "%1$s was electrified",
+  "death.attack.electric.player" : "%1$s was electrified by %2$s",
+  "death.attack.electric.mob" : "%1$s was electrified by %2$s",
+
+
+  "advancements.adventure.sandrunner.title" : "Sandrunner",
+  "advancements.adventure.sandrunner.description" : "Run on sand with sandstrider boots",
+
+  "advancements.adventure.rivers_desert.title" : "Rivers in the desert",
+  "advancements.adventure.rivers_desert.description" : "Obtain a rose of the desert",
+
+  "advancements.adventure.zap.title" : "Zap!",
+  "advancements.adventure.zap.description" : "Hit a mob with a lionfish spike",
+
+  "advancements.husbandry.cocofruit.title" : "Cocofruit",
+  "advancements.husbandry.cocofruit.description" : "Obtain the fruit of the coconut tree"
+}

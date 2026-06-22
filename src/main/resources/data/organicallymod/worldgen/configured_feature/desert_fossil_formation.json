@@ -1,0 +1,18 @@
+{
+  "type": "organicallymod:desert_formation",
+  "config": {
+    "main": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "minecraft:sandstone"
+      }
+    },
+    "rare": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "organicallymod:fossil_clump"
+      }
+    },
+    "chance": 0.1
+  }
+}

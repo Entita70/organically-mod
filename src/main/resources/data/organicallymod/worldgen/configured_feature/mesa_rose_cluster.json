@@ -1,0 +1,14 @@
+{
+  "type": "organicallymod:desert_rose",
+  "config": {
+    "cluster": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "organicallymod:active_mesa_rose_cluster",
+        "Properties": {
+          "age": 2
+        }
+      }
+    }
+  }
+}

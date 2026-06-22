@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "organicallymod:block/palm_slab"
+    },
+    "type=double": {
+      "model": "organicallymod:block/palm_planks"
+    },
+    "type=top": {
+      "model": "organicallymod:block/palm_slab_top"
+    }
+  }
+}

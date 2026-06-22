@@ -1,0 +1,6 @@
+{
+	"parent": "minecraft:block/template_single_face",
+	"textures": {
+		"texture": "organicallymod:block/desert_shaggy_mane_block"
+	}
+}

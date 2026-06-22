@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "misc",
+  "key": {
+    "C": {
+      "item": "organicallymod:coconut_slice"
+    },
+    "G": {
+      "tag": "organicallymod:glowing_items"
+    },
+    "S": {
+      "item": "minecraft:string"
+    }
+  },
+  "pattern": [
+    "S",
+    "C",
+    "G"
+  ],
+  "result": {
+    "id": "organicallymod:coconut_lamp"
+  }
+}

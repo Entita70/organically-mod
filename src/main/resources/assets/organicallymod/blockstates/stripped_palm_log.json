@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "organicallymod:block/stripped_palm_log_horizontal",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "organicallymod:block/stripped_palm_log"
+    },
+    "axis=z": {
+      "model": "organicallymod:block/stripped_palm_log_horizontal",
+      "x": 90
+    }
+  }
+}

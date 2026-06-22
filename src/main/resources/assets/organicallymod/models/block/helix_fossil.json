@@ -1,0 +1,46 @@
+{
+	"format_version": "1.9.0",
+	"credit": "Made with Blockbench",
+	"texture_size": [32, 32],
+	"textures": {
+		"1": "organicallymod:block/helix_fossil",
+		"particle": "organicallymod:item/helix_fossil"
+	},
+	"elements": [
+		{
+			"from": [2, 0, 0],
+			"to": [12, 10, 4],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0, 1]},
+			"faces": {
+				"north": {"uv": [0, 5, 5, 10], "texture": "#1"},
+				"east": {"uv": [5, 0, 7, 5], "texture": "#1"},
+				"south": {"uv": [0, 0, 5, 5], "texture": "#1"},
+				"west": {"uv": [5, 5, 7, 10], "texture": "#1"},
+				"up": {"uv": [9, 5, 7, 0], "rotation": 90, "texture": "#1"},
+				"down": {"uv": [9, 5, 7, 10], "rotation": 270, "texture": "#1"}
+			}
+		},
+		{
+			"from": [12, 0, 0],
+			"to": [13, 4, 4],
+			"rotation": {"angle": 0, "axis": "y", "origin": [14, 0, 0]},
+			"faces": {
+				"north": {"uv": [9, 5, 9.5, 7], "texture": "#1"},
+				"east": {"uv": [9, 0, 11, 2], "texture": "#1"},
+				"south": {"uv": [5, 3, 5.5, 5], "texture": "#1"},
+				"west": {"uv": [9, 2, 11, 4], "texture": "#1"},
+				"up": {"uv": [11, 4.5, 9, 4], "rotation": 90, "texture": "#1"},
+				"down": {"uv": [11, 4.5, 9, 5], "rotation": 270, "texture": "#1"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "helix",
+			"origin": [8, 8, 8],
+			"scope": 0,
+			"color": 0,
+			"children": [0, 1]
+		}
+	]
+}

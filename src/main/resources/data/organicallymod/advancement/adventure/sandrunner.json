@@ -1,0 +1,43 @@
+{
+  "display": {
+    "icon": {
+      "id": "organicallymod:sandstrider_boots"
+    },
+    "title": {
+      "translate": "advancements.adventure.sandrunner.title"
+    },
+    "description": {
+      "translate": "advancements.adventure.sandrunner.description"
+    }
+  },
+  "parent": "organicallymod:adventure/rivers_desert",
+  "criteria": {
+    "sandy": {
+      "trigger": "minecraft:enter_block",
+      "conditions": {
+        "player": {
+          "flags": {
+            "is_sprinting": true
+          },
+          "equipment": {
+            "feet": {
+              "items": "organicallymod:sandstrider_boots"
+            }
+          },
+          "stepping_on": {
+            "block": {
+              "blocks": "#minecraft:sand"
+            }
+          }
+        },
+        "items": []
+      }
+    }
+  },
+  "requirements": [
+    [
+      "sandy"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

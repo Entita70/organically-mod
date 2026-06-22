@@ -1,0 +1,6 @@
+{
+	"parent": "minecraft:block/fence_post",
+	"textures": {
+		"texture": "organicallymod:block/palm_planks"
+	}
+}

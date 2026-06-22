@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "bark",
+  "key": {
+    "S": {
+      "item": "organicallymod:sandstrider_scale"
+    },
+    "D": {
+      "tag": "organicallymod:desert_roses"
+    },
+    "R": {
+      "item": "minecraft:rabbit_hide"
+    }
+  },
+  "pattern": [
+    "RDR",
+    "S S",
+    "S S"
+  ],
+  "result": {
+    "id": "organicallymod:sandstrider_boots"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "organicallymod:desert_marigolds"
+    }
+  ],
+  "result": {
+    "id": "minecraft:yellow_dye"
+  }
+}

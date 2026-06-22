@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "id": "organicallymod:coconut"
+    },
+    "title": {
+      "translate": "advancements.husbandry.cocofruit.title"
+    },
+    "description": {
+      "translate": "advancements.husbandry.cocofruit.description"
+    }
+  },
+  "parent": "minecraft:husbandry/root",
+  "criteria": {
+    "coconut": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "organicallymod:coconut"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "coconut"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

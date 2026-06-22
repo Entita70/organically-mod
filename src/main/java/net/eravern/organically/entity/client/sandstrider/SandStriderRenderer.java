@@ -1,0 +1,40 @@
+package net.eravern.organically.entity.client.sandstrider;
+
+import net.eravern.organically.OrganicallyMod;
+import net.eravern.organically.entity.client.lionfish.LionfishModel;
+import net.eravern.organically.entity.custom.SandStriderEntity;
+import net.minecraft.client.render.VertexConsumerProvider;
+import net.minecraft.client.render.entity.EntityRendererFactory;
+import net.minecraft.client.render.entity.MobEntityRenderer;
+import net.minecraft.client.util.math.MatrixStack;
+import net.minecraft.util.Identifier;
+
+import java.util.Objects;
+
+public class SandStriderRenderer extends MobEntityRenderer<SandStriderEntity, SandStriderModel<SandStriderEntity>> {
+    public static final Identifier DESERT = Identifier.of(OrganicallyMod.MOD_ID, "textures/entity/sandstrider/sandstrider.png");
+    public static final Identifier MESA = Identifier.of(OrganicallyMod.MOD_ID, "textures/entity/sandstrider/sandstrider_mesa.png");
+
+
+
+    public SandStriderRenderer(EntityRendererFactory.Context context) {
+        super(context, new SandStriderModel<>(context.getPart(SandStriderModel.SANDSTRIDER)), 0.7f);
+    }
+
+    @Override
+    public void render(SandStriderEntity livingEntity, float f, float g, MatrixStack matrixStack, VertexConsumerProvider vertexConsumerProvider, int i) {
+        matrixStack.scale(1f, 1f, 1f);
+        super.render(livingEntity, f, g, matrixStack, vertexConsumerProvider, i);
+    }
+
+    @Override
+    public Identifier getTexture(SandStriderEntity entity) {
+        Identifier TEXTURE;
+        if (Objects.requireNonNull(entity.getVariant()) == SandStriderVariants.MESA) {
+            TEXTURE = MESA;
+        } else {
+            TEXTURE = DESERT;
+        }
+        return TEXTURE;
+    }
+}

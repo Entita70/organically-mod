@@ -1,0 +1,30 @@
+{
+  "variants": {
+    "facing=west": {
+      "model": "organicallymod:block/desert_rose_cluster",
+      "x": 90,
+      "y": 270
+    },
+    "facing=south": {
+      "model": "organicallymod:block/desert_rose_cluster",
+      "x": 90,
+      "y": 180
+    },
+    "facing=north": {
+      "model": "organicallymod:block/desert_rose_cluster",
+      "x": 90
+    },
+    "facing=east": {
+      "model": "organicallymod:block/desert_rose_cluster",
+      "x": 90,
+      "y": 90
+    },
+    "facing=up": {
+      "model": "organicallymod:block/desert_rose_cluster"
+    },
+    "facing=down": {
+      "model": "organicallymod:block/desert_rose_cluster",
+      "x": 180
+    }
+  }
+}

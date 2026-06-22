@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "organicallymod:calcium"
+    },
+    {
+      "item": "organicallymod:calcium"
+    },
+    {
+      "item": "minecraft:redstone"
+    },
+    {
+      "item": "organicallymod:calcium"
+    },
+    {
+      "item": "organicallymod:calcium"
+    }
+  ],
+  "result": {
+    "id": "organicallymod:active_powder"
+  }
+}

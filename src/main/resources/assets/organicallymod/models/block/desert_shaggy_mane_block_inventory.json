@@ -1,0 +1,6 @@
+{
+	"parent": "minecraft:block/cube_all",
+	"textures": {
+		"all": "organicallymod:block/desert_shaggy_mane_block"
+	}
+}

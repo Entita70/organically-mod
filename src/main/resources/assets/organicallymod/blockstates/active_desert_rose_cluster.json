@@ -1,0 +1,14 @@
+{
+  "variants": {
+    "age=0": {
+      "model": "organicallymod:block/active_desert_rose_cluster_st0"
+    },
+    "age=1": {
+      "model": "organicallymod:block/active_desert_rose_cluster_st1"
+    },
+
+    "age=2": {
+      "model": "organicallymod:block/desert_rose_cluster_block"
+    }
+  }
+}

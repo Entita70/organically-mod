@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+
+    "organicallymod:desert_rose_cluster",
+    "organicallymod:mesa_rose_cluster",
+    "organicallymod:active_desert_rose_cluster",
+    "organicallymod:active_mesa_rose_cluster",
+    "organicallymod:desert_rose_cluster_block",
+    "organicallymod:mesa_rose_cluster_block",
+    "organicallymod:helix_fossil",
+    "organicallymod:pointy_fossil",
+    "organicallymod:fossil_clump"
+
+
+  ]
+}
