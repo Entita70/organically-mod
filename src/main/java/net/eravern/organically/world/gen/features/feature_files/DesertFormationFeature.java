@@ -59,7 +59,7 @@ public class DesertFormationFeature extends Feature<DesertFormationFeatureConfig
 
 
     public static void placeFormation(BlockPos pos, StructureWorldAccess world, BlockState block, BlockState rare, float chance, Random random){
-        BlockPos mid = new BlockPos(pos.down(14));
+        BlockPos mid = new BlockPos(pos.down(16));
         int height = random.nextInt(10) + 10;
         float underground;
         boolean under;
