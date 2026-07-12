@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "organicallymod:block/polished_desert_rose_slab"
+    },
+    "type=double": {
+      "model": "organicallymod:block/polished_desert_rose_block"
+    },
+    "type=top": {
+      "model": "organicallymod:block/polished_desert_rose_slab_top"
+    }
+  }
+}

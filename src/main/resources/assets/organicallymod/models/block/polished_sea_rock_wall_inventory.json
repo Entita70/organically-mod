@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/wall_inventory",
+  "textures": {
+    "wall": "organicallymod:block/polished_sea_rock"
+  }
+}

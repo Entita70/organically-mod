@@ -10,6 +10,8 @@ public class OrganicallyModItemTags {
 
     public static final TagKey<Item> PALM_LOGS = createTag("palm_logs");
     public static final TagKey<Item> FOSSILS = createTag("fossils");
+    public static final TagKey<Item> MOLLUSKS = createTag("mollusks");
+    public static final TagKey<Item> COOKED_FISHES = createTag("cooked_fishes");
     public static final TagKey<Item> BONES = createTag("bones");
     public static final TagKey<Item> GNAWER_FOOD = createTag("gnawer_food");
     public static final TagKey<Item> GNAWABLE = createTag("gnawable");

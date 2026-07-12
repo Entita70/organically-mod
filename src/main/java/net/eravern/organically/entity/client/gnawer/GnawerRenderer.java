@@ -17,13 +17,20 @@ public class GnawerRenderer extends MobEntityRenderer<GnawerEntity, GnawerModel<
     }
 
     @Override
-    public void render(GnawerEntity livingEntity, float f, float g, MatrixStack matrixStack, VertexConsumerProvider vertexConsumerProvider, int i) {
-        if (livingEntity.isBaby()) {
-            matrixStack.scale(0.5f, 0.5f, 0.5f);
-        }else {
+    public void render(GnawerEntity livingEntity, float f, float g, MatrixStack matrixStack,
+                       VertexConsumerProvider vertexConsumerProvider, int i) {
             matrixStack.scale(1f, 1f, 1f);
-        }
         super.render(livingEntity, f, g, matrixStack, vertexConsumerProvider, i);
+    }
+
+    @Override
+    protected void scale(GnawerEntity entity, MatrixStack matrices, float amount) {
+        if (entity.isBaby()){
+            matrices.scale(0.7f, 0.7f, 0.7f);
+        }else{
+            matrices.scale(1f, 1f,1f);
+        }
+        super.scale(entity, matrices, amount);
     }
 
     @Override

@@ -1,0 +1,11 @@
+{
+  "type": "lithostitched:add_features",
+  "biomes": "minecraft:desert",
+  "features": [
+    "organicallymod:patch_desert_marigolds",
+    "organicallymod:patch_brittlebush_desert",
+    "organicallymod:patch_triodia_desert",
+    "organicallymod:patch_barrel_cacti_desert"
+  ],
+  "step": "vegetal_decoration"
+}

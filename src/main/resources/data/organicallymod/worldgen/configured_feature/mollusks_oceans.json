@@ -1,0 +1,19 @@
+{
+  "type": "organicallymod:cluster_placer",
+  "config": {
+    "block": "organicallymod:mollusks",
+    "can_be_placed_on": [
+      "organicallymod:sea_rock",
+      "minecraft:tube_coral_block",
+      "minecraft:brain_coral_block",
+      "minecraft:bubble_coral_block",
+      "minecraft:fire_coral_block",
+      "minecraft:horn_coral_block"
+
+    ],
+    "can_place_on_ceiling": true,
+    "can_place_on_floor": true,
+    "can_place_on_wall": true,
+    "search_range": 240
+  }
+}

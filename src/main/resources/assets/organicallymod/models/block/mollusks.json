@@ -1,0 +1,7 @@
+{
+	"parent": "organicallymod:block/cluster",
+	"textures": {
+		"texture": "organicallymod:block/mollusks",
+		"particle": "organicallymod:block/mollusks"
+	}
+}

@@ -23,7 +23,7 @@ public class ElectrifiedStatusEffect extends StatusEffect {
 
     @Override
     public boolean canApplyUpdateEffect(int duration, int amplifier) {
-        int i = 10;
+        int i = 15;
         return duration % i == 0;
     }
 }

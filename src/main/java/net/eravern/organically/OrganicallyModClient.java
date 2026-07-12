@@ -17,11 +17,8 @@ import net.fabricmc.fabric.api.client.particle.v1.ParticleFactoryRegistry;
 import net.fabricmc.fabric.api.client.rendering.v1.ColorProviderRegistry;
 import net.fabricmc.fabric.api.client.rendering.v1.EntityModelLayerRegistry;
 import net.fabricmc.fabric.api.client.rendering.v1.EntityRendererRegistry;
-import net.fabricmc.fabric.mixin.client.rendering.BlockEntityRendererFactoriesMixin;
 import net.minecraft.client.color.world.BiomeColors;
 import net.minecraft.client.render.RenderLayer;
-import net.minecraft.client.render.block.entity.BlockEntityRenderDispatcher;
-import net.minecraft.client.render.block.entity.BlockEntityRenderer;
 import net.minecraft.world.biome.FoliageColors;
 
 public class OrganicallyModClient implements ClientModInitializer {
@@ -40,10 +37,14 @@ public class OrganicallyModClient implements ClientModInitializer {
         BlockRenderLayerMap.INSTANCE.putBlock(OrganicallyModBlocks.TRIODIA, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(OrganicallyModBlocks.POTTED_TRIODIA, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(OrganicallyModBlocks.SNAKE_PLANT, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(OrganicallyModBlocks.SALTBUSH, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(OrganicallyModBlocks.POTTED_SNAKE_PLANT, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(OrganicallyModBlocks.BRITTLEBUSH, RenderLayer.getCutoutMipped());
+        BlockRenderLayerMap.INSTANCE.putBlock(OrganicallyModBlocks.BRITTLEBUSH, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(OrganicallyModBlocks.DESERT_SHAGGY_MANE, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(OrganicallyModBlocks.POTTED_DESERT_SHAGGY_MANE, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(OrganicallyModBlocks.MOLLUSKS, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(OrganicallyModBlocks.SCALLOP, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(OrganicallyModBlocks.ANTARCTIC_SCALLOP, RenderLayer.getCutout());
 
         BlockRenderLayerMap.INSTANCE.putBlock(OrganicallyModBlocks.PALM_LEAVES, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(OrganicallyModBlocks.FLUORESCENT_BLOCK, RenderLayer.getTranslucent());

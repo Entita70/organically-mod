@@ -1,0 +1,10 @@
+{
+  "type": "lithostitched:add_features",
+  "biomes": "#minecraft:is_ocean",
+  "features": [
+    "organicallymod:mollusks_oceans",
+    "organicallymod:mollusks_patch_ocean"
+
+  ],
+  "step": "vegetal_decoration"
+}

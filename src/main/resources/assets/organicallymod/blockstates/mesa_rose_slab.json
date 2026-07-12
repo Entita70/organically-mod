@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "organicallymod:block/mesa_rose_slab"
+    },
+    "type=double": {
+      "model": "organicallymod:block/mesa_rose_block"
+    },
+    "type=top": {
+      "model": "organicallymod:block/mesa_rose_slab_top"
+    }
+  }
+}

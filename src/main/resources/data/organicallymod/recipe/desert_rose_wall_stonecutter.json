@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "organicallymod:desert_rose_block"
+  },
+  "result": {
+    "id": "organicallymod:desert_rose_wall"
+  }
+}

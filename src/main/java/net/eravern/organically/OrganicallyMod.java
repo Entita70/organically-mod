@@ -55,6 +55,7 @@ public class OrganicallyMod implements ModInitializer {
 	public static final TreeDecoratorType<CoconutsTreeDecorator> COCONUTS_TREE_DECORATOR = TreeDecoratorTypeInvokerMixin.callRegister(OrganicallyMod.MOD_ID + ":coconuts_tree_decorator", CoconutsTreeDecorator.CODEC);
 
 	public static final TrackedDataHandler<GnawerEntity.State> GNAWER_STATE = TrackedDataHandler.create(GnawerEntity.State.PACKET_CODEC);
+	public static final TrackedDataHandler<SandStriderEntity.State> SANDSTRIDER_STATE = TrackedDataHandler.create(SandStriderEntity.State.PACKET_CODEC);
 
 	public static final BlockSetType PALM_SET = BlockSetTypeBuilder.copyOf(BlockSetType.OAK).register(Identifier.of(OrganicallyMod.MOD_ID, "palm"));
 	public static final WoodType PALM = WoodTypeBuilder.copyOf(WoodType.OAK).register(Identifier.of(OrganicallyMod.MOD_ID, "palm"), PALM_SET);
@@ -114,6 +115,7 @@ public class OrganicallyMod implements ModInitializer {
 		FlammableBlockRegistry.getDefaultInstance().add(OrganicallyModBlocks.PALM_LEAVES, 20, 50);
 		FlammableBlockRegistry.getDefaultInstance().add(OrganicallyModBlocks.BRITTLEBUSH, 20, 50);
 		FlammableBlockRegistry.getDefaultInstance().add(OrganicallyModBlocks.TRIODIA, 20, 50);
+		FlammableBlockRegistry.getDefaultInstance().add(OrganicallyModBlocks.SALTBUSH, 20, 50);
 		FlammableBlockRegistry.getDefaultInstance().add(OrganicallyModBlocks.SNAKE_PLANT, 20, 50);
 		FlammableBlockRegistry.getDefaultInstance().add(OrganicallyModBlocks.DESERT_MARIGOLDS, 20, 50);
 		FlammableBlockRegistry.getDefaultInstance().add(OrganicallyModBlocks.DESERT_SHAGGY_MANE, 20, 50);
@@ -134,6 +136,7 @@ public class OrganicallyMod implements ModInitializer {
 		CompostingChanceRegistry.INSTANCE.add(OrganicallyModBlocks.BRITTLEBUSH, 0.6f);
 		CompostingChanceRegistry.INSTANCE.add(OrganicallyModBlocks.TRIODIA, 0.3f);
 		CompostingChanceRegistry.INSTANCE.add(OrganicallyModBlocks.SNAKE_PLANT, 0.4f);
+		CompostingChanceRegistry.INSTANCE.add(OrganicallyModBlocks.SALTBUSH, 0.4f);
 		CompostingChanceRegistry.INSTANCE.add(OrganicallyModBlocks.DESERT_SHAGGY_MANE, 0.6f);
 		CompostingChanceRegistry.INSTANCE.add(OrganicallyModBlocks.DESERT_SHAGGY_MANE_BLOCK, 0.8f);
 		CompostingChanceRegistry.INSTANCE.add(OrganicallyModBlocks.BARREL_CACTUS, 0.7f);
@@ -141,8 +144,14 @@ public class OrganicallyMod implements ModInitializer {
 		Registry.register(Registries.FEATURE, OrganicallyModFeatures.HUGE_DESERT_SHAGGY_MANE_ID, OrganicallyModFeatures.HUGE_DESERT_SHAGGY_MANE);
 		Registry.register(Registries.FEATURE, OrganicallyModFeatures.DESERT_ROSE_ID, OrganicallyModFeatures.DESERT_ROSE);
 		Registry.register(Registries.FEATURE, OrganicallyModFeatures.DESERT_FORMATION_ID, OrganicallyModFeatures.DESERT_FORMATION);
+		Registry.register(Registries.FEATURE, OrganicallyModFeatures.ROCK_ID, OrganicallyModFeatures.ROCK);
+		Registry.register(Registries.FEATURE, OrganicallyModFeatures.SEA_PILLAR_ID, OrganicallyModFeatures.SEA_PILLAR);
+		Registry.register(Registries.FEATURE, OrganicallyModFeatures.CLUSTER_PLACER_ID, OrganicallyModFeatures.CLUSTER_PLACER);
+		Registry.register(Registries.FEATURE, OrganicallyModFeatures.UNDERWATER_PATCH_ID, OrganicallyModFeatures.UNDERWATER_PATCH);
 
 		TrackedDataHandlerRegistry.register(GNAWER_STATE);
+		TrackedDataHandlerRegistry.register(SANDSTRIDER_STATE);
+
 
 		BlockEntityType.SIGN.addSupportedBlock(OrganicallyModBlocks.PALM_SIGN);
 		BlockEntityType.SIGN.addSupportedBlock(OrganicallyModBlocks.PALM_WALL_SIGN);

@@ -1,0 +1,9 @@
+{
+	"parent": "minecraft:block/stairs",
+	"textures": {
+		"bottom": "organicallymod:block/mesa_rose_block",
+		"side": "organicallymod:block/mesa_rose_block",
+		"top": "organicallymod:block/mesa_rose_block"
+
+	}
+}

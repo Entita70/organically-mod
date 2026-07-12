@@ -1,0 +1,7 @@
+{
+	"parent": "organicallymod:block/scallop_template",
+	"textures": {
+		"texture": "organicallymod:block/antarctic_scallop",
+		"particle": "organicallymod:block/antarctic_scallop"
+	}
+}

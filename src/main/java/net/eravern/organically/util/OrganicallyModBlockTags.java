@@ -15,9 +15,11 @@ public class OrganicallyModBlockTags {
     public static final TagKey<Block> DESERT_PLANT_BLOCK = createTag("desert_plant_block");
     public static final TagKey<Block> DESERT_SPAWN_BLOCKS = createTag("desert_spawn_blocks");
     public static final TagKey<Block> FOSSILS = createTag("fossils");
+    public static final TagKey<Block> MOLLUSKS = createTag("mollusks");
     public static final TagKey<Block> TROWEL_MINEABLE = createTag("trowel_mineable");
     public static final TagKey<Block> ACTIVABLE = createTag("activable");
     public static final TagKey<Block> GNAWER_HATCH_BOOST = createTag("gnawer_hatch_boost");
+    public static final TagKey<Block> CLUSTER_PLACEABLE = createTag("cluster_placeable");
 
 
     private static TagKey<Block> createTag(String name) {

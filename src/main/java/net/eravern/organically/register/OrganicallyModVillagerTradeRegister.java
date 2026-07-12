@@ -26,9 +26,33 @@ public class OrganicallyModVillagerTradeRegister {
             ));
         });
 
+        TradeOfferHelper.registerWanderingTraderOffers(1, factories ->{
+            factories.add((entity, random) -> new TradeOffer(
+                    new TradedItem(Items.EMERALD, 2),
+                    new ItemStack(OrganicallyModBlocks.MOLLUSKS, 5),
+                    7, 0, 1f
+            ));
+        });
+
+        TradeOfferHelper.registerWanderingTraderOffers(1, factories ->{
+            factories.add((entity, random) -> new TradeOffer(
+                    new TradedItem(Items.EMERALD, 2),
+                    new ItemStack(OrganicallyModBlocks.SCALLOP, 3),
+                    7, 0, 1f
+            ));
+        });
+
+        TradeOfferHelper.registerWanderingTraderOffers(1, factories ->{
+            factories.add((entity, random) -> new TradeOffer(
+                    new TradedItem(Items.EMERALD, 2),
+                    new ItemStack(OrganicallyModBlocks.ANTARCTIC_SCALLOP, 3),
+                    7, 0, 1f
+            ));
+        });
+
         TradeOfferHelper.registerWanderingTraderOffers(2, factories ->{
             factories.add((entity, random) -> new TradeOffer(
-                    new TradedItem(Items.EMERALD, 9),
+                    new TradedItem(Items.EMERALD, 5),
                     new ItemStack(OrganicallyModBlocks.DESERT_ROSE_CLUSTER, 3),
                     2, 0, 1f
             ));

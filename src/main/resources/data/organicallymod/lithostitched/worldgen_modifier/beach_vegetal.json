@@ -1,0 +1,8 @@
+{
+  "type": "lithostitched:add_features",
+  "biomes": "#minecraft:is_beach",
+  "features": [
+    "organicallymod:mollusks_beach"
+  ],
+  "step": "vegetal_decoration"
+}

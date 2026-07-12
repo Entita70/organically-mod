@@ -1,0 +1,8 @@
+{
+  "type": "lithostitched:add_features",
+  "biomes": "#organicallymod:is_colder_ocean",
+  "features": [
+    "organicallymod:antarctic_scallop_patch_ocean"
+  ],
+  "step": "vegetal_decoration"
+}

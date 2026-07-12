@@ -1,0 +1,142 @@
+{
+
+
+  "item.organicallymod.lionfish" : "Bigcat Fis",
+  "item.organicallymod.cooked_lionfish" : "Cookd Big Catz Fis",
+  "item.organicallymod.lionfish_spike" : "Bigcat Fis Pointi ting",
+  "item.organicallymod.seafarers_chow" : "Yummi Fis Man Boul",
+  "item.organicallymod.lionfish_bucket" : "Bigcat Fis Buket",
+  "item.organicallymod.lionfish_spawn_egg" : "Bigcat Fis spon ec",
+  "item.organicallymod.sandstrider_spawn_egg" : "Litter Lizar spon ec",
+  "item.organicallymod.gnawer_spawn_egg" : "Nommer spon ec",
+  "item.organicallymod.coconut" : "COCO!",
+  "item.organicallymod.coconut_slice" : "Coco chop",
+  "item.organicallymod.palm_salad" : "Palm Salad",
+  "item.organicallymod.sandstrider_scale" : "Litter Lizar ting",
+  "item.organicallymod.sandstrider_boots" : "Litter Shoez",
+  "item.organicallymod.trowel" : "Pointi Irun",
+  "item.organicallymod.fluorescent_mucus" : "Glow Ewie",
+  "item.organicallymod.calcium" : "Funni taste rocc",
+  "item.organicallymod.active_powder" : "ZOOM POUDAR",
+  "item.organicallymod.palm_sign" : "Palm Sign",
+  "item.organicallymod.palm_hanging_sign" : "Palm Danglin' Sign",
+  "item.organicallymod.palm_boat" : "Palm Watur Car",
+  "item.organicallymod.palm_chest_boat" : "Palm Watur Car Wir Cat Box",
+
+
+  "block.organicallymod.sprouted_coconut" : "Plant coco",
+  "block.organicallymod.coconut" : "Coco",
+  "block.organicallymod.coconut_crop" : "Wall coco",
+  "block.organicallymod.coconut_lamp" : "Glowy coco",
+  "block.organicallymod.palm_crown" : "King palm",
+  "block.organicallymod.palm_log" : "Palm Lawg",
+  "block.organicallymod.palm_wood" : "Palm Wuud",
+  "block.organicallymod.stripped_palm_log" : "Naked Palm Lawg",
+  "block.organicallymod.stripped_palm_wood" : "Naked Palm Wuud",
+  "block.organicallymod.palm_planks" : "Pal Bloc",
+  "block.organicallymod.palm_stairs" : "Palm Stairz",
+  "block.organicallymod.palm_slab" : "Palm Sleb",
+  "block.organicallymod.palm_leaves" : "Palm Lefs",
+  "block.organicallymod.palm_fence" : "Pal Fenc",
+  "block.organicallymod.palm_fence_gate" : "Palm Fenc Gaet",
+  "block.organicallymod.palm_door" : "Palm Dor",
+  "block.organicallymod.palm_trapdoor" : "Pal Trap",
+  "block.organicallymod.palm_button" : "Palm Button",
+  "block.organicallymod.palm_pressure_plate" : "Pal Prseure Pleitz",
+  "block.organicallymod.palm_sign" : "Palm Sign",
+  "block.organicallymod.palm_wall_sign" : "Pal Sign",
+  "block.organicallymod.palm_hanging_sign" : "Palm Danglin' Sign",
+  "block.organicallymod.palm_hanging_wall_sign" : "Palm Danglin' Sign",
+  "block.organicallymod.fluorescent_block" : "Glowie Bloc",
+
+  "block.organicallymod.mollusks" : "See tings dat sticc",
+  "block.organicallymod.scallop" : "Tastie shell ting",
+  "block.organicallymod.antarctic_scallop" : "Cool tastie Shell ting",
+  "block.organicallymod.sea_rock" : "See rocc",
+  "block.organicallymod.sea_rock_stairs" : "See Rocc Stepz",
+  "block.organicallymod.sea_rock_slab" : "See Rocc Sleb",
+  "block.organicallymod.sea_rock_wall" : "See Rocc Wal",
+  "block.organicallymod.polished_sea_rock" : "Pretteh See Rocc",
+  "block.organicallymod.polished_sea_rock_stairs" : "Pretteh See Rocc Stairz",
+  "block.organicallymod.polished_sea_rock_slab" : "Pretteh See Rocc Sleb",
+  "block.organicallymod.polished_sea_rock_wall" : "Pretteh See Rocc Wal",
+  "block.organicallymod.sea_rock_bricks" : "See Rocc Brikz",
+  "block.organicallymod.sea_rock_bricks_stairs" : "See Rocc Brikz Stairz",
+  "block.organicallymod.sea_rock_bricks_slab" : "See Rocc Brikz Sleb",
+  "block.organicallymod.sea_rock_brick_wall" : "See Rocc Brikz Wal",
+  "block.organicallymod.chiseled_sea_rock_bricks" : "Fishi See Rocc Brikz",
+
+
+
+  "block.organicallymod.brittlebush" : "Owiebush",
+  "block.organicallymod.desert_marigolds" : "Litter flours",
+  "block.organicallymod.potted_desert_marigolds" : "Containd Litter flours",
+  "block.organicallymod.desert_shaggy_mane" : "Litter Mooshroom",
+  "block.organicallymod.potted_desert_shaggy_mane" : "Containd Litter Mooshroom",
+  "block.organicallymod.desert_shaggy_mane_block" : "Litter Mooshroom blocc",
+  "block.organicallymod.barrel_cactus" : "Blocc Spiky Plan",
+  "block.organicallymod.potted_barrel_cactus" : "Containd Bloc spiky plan",
+  "block.organicallymod.triodia" : "Weed",
+  "block.organicallymod.potted_triodia" : "Containd Weed",
+  "block.organicallymod.snake_plant" : "Hurt Lefs",
+  "block.organicallymod.potted_snake_plant" : "Containd Hurt Lefs",
+  "block.organicallymod.saltbush" : "Salty Plan",
+
+
+  "block.organicallymod.fossil_clump" : "Ol' blocc",
+  "block.organicallymod.helix_fossil" : "Sprally old ting",
+  "block.organicallymod.pointy_fossil" : "Pointi old ting",
+  "block.organicallymod.gnawer_egg" : "Nommer ecc",
+
+
+  "block.organicallymod.active_desert_rose_cluster" : "ALIVEZ!1 Litter Flour",
+  "block.organicallymod.active_mesa_rose_cluster" : "Alivez!2 red litter Flurz",
+  "block.organicallymod.desert_rose_block" : "Litter Flour blocc",
+  "block.organicallymod.desert_rose_stairs" : "Litter flour Stairz",
+  "block.organicallymod.desert_rose_slab" : "Litter flour Sleb",
+  "block.organicallymod.desert_rose_wall" : "Litter flour Well",
+  "block.organicallymod.polished_desert_rose_block" : "Smoooth Litter flour Blocc",
+  "block.organicallymod.polished_desert_rose_stairs" : "Smooth litter floor Stepz",
+  "block.organicallymod.polished_desert_rose_slab" : "Smoooth Littr Flour Sleb",
+  "block.organicallymod.polished_desert_rose_wall" : "Smooth Litter Flur Wal",
+  "block.organicallymod.desert_rose_cluster" : "Litter flour",
+  "block.organicallymod.mesa_rose_block" : "Rad Litter Flour blocc",
+  "block.organicallymod.mesa_rose_stairs" : "Red Littr Flour steirz",
+  "block.organicallymod.mesa_rose_slab" : "red Red Litter Flour sleb",
+  "block.organicallymod.mesa_rose_wall" : "Red Litter Flour wal",
+  "block.organicallymod.polished_mesa_rose_block" : "Smooth Red Litter Flor blocc",
+  "block.organicallymod.polished_mesa_rose_stairs" : "Smooth Red Litter Flour stairz",
+  "block.organicallymod.polished_mesa_rose_slab" : "Smoooth Red Littr Flour sleb",
+  "block.organicallymod.polished_mesa_rose_wall" : "smoth Red Litter Flour wal",
+  "block.organicallymod.mesa_rose_cluster" : "Red Litter Flour",
+
+
+  "biome.organicallymod.arid_plains" : "HOTZ FLAT PLAN",
+
+
+
+  "entity.organicallymod.lionfish_spike" : "Bigcat Fis Pointi ting",
+  "entity.organicallymod.lionfish" : "Bigcar fis",
+  "entity.organicallymod.sandstrider" : "Litter lizar",
+  "entity.organicallymod.gnawer" : "Nommer",
+
+
+  "effect.organicallymod.electrified" : "ZAPPED!",
+
+  "death.attack.electric" : "%1$s waz ZaPpeed!1",
+  "death.attack.electric.player" : "%1$s waz Zaappeed! by %2$s",
+  "death.attack.electric.mob" : "%1$s was zap! by %2$s",
+
+
+  "advancements.adventure.sandrunner.title" : "Litter stepped",
+  "advancements.adventure.sandrunner.description" : "Ran on da litter",
+
+  "advancements.adventure.rivers_desert.title" : "Bad tasty flour",
+  "advancements.adventure.rivers_desert.description" : "Get da flour o da litter",
+
+  "advancements.adventure.zap.title" : "Elecc",
+  "advancements.adventure.zap.description" : "Zap a bad kitteh wit da bigCatz fis pointi ting",
+
+  "advancements.husbandry.cocofruit.title" : "Da COCO!",
+  "advancements.husbandry.cocofruit.description" : "Get da coco o' da palm treeh"
+}

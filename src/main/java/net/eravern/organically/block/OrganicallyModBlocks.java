@@ -172,40 +172,124 @@ public class OrganicallyModBlocks {
     public static final Block SNAKE_PLANT = registerBlock("snake_plant",
             new DecorativeDesertPlant(AbstractBlock.Settings.create()
                         .mapColor(MapColor.DARK_GREEN).noCollision().breakInstantly()
-                    .sounds(BlockSoundGroup.GRASS).burnable()
+                    .sounds(BlockSoundGroup.GRASS).burnable().nonOpaque()
                     .pistonBehavior(PistonBehavior.DESTROY)));
 
     public static final Block POTTED_SNAKE_PLANT = registerItemlessBlock("potted_snake_plant",
             createFlowerPotBlock(SNAKE_PLANT));
 
-    public static final Block DESERT_ROSE_CLUSTER_BLOCK = registerBlock("desert_rose_cluster_block",
+    public static final Block SALTBUSH = registerBlock("saltbush",
+            new DecorativeDesertPlant(AbstractBlock.Settings.create()
+                    .mapColor(MapColor.PALE_GREEN).noCollision().breakInstantly()
+                    .sounds(BlockSoundGroup.GRASS).burnable().nonOpaque()
+                    .pistonBehavior(PistonBehavior.DESTROY)));
+
+
+
+    public static final Block DESERT_ROSE_BLOCK = registerBlock("desert_rose_block",
             new Block(AbstractBlock.Settings.create().mapColor(MapColor.PALE_YELLOW)
                     .strength(1.0F).sounds(BlockSoundGroup.CORAL)
                     .requiresTool()));
 
+    public static final Block DESERT_ROSE_SLAB = registerBlock("desert_rose_slab",
+            new SlabBlock(AbstractBlock.Settings.create().requiresTool()
+                    .mapColor(MapColor.PALE_YELLOW).strength(2.0F, 6.0F)
+                    .sounds(BlockSoundGroup.CORAL)));
+
+    public static final Block DESERT_ROSE_STAIRS = registerBlock("desert_rose_stairs",
+            new StairsBlock(DESERT_ROSE_BLOCK.getDefaultState(), AbstractBlock.Settings.create().requiresTool()
+                    .mapColor(MapColor.PALE_YELLOW).strength(2.0F, 6.0F)
+                    .sounds(BlockSoundGroup.CORAL)));
+
+    public static final Block DESERT_ROSE_WALL = registerBlock("desert_rose_wall",
+            new WallBlock(AbstractBlock.Settings.create().requiresTool()
+                    .mapColor(MapColor.PALE_YELLOW).strength(2.0F, 6.0F)
+                    .sounds(BlockSoundGroup.CORAL)));
+
+    public static final Block POLISHED_DESERT_ROSE_BLOCK = registerBlock("polished_desert_rose_block",
+            new Block(AbstractBlock.Settings.create().mapColor(MapColor.PALE_YELLOW)
+                    .strength(1.0F).sounds(BlockSoundGroup.CORAL)
+                    .requiresTool()));
+
+    public static final Block POLISHED_DESERT_ROSE_SLAB = registerBlock("polished_desert_rose_slab",
+            new SlabBlock(AbstractBlock.Settings.create().requiresTool()
+                    .mapColor(MapColor.PALE_YELLOW).strength(2.0F, 6.0F)
+                    .sounds(BlockSoundGroup.CORAL)));
+
+    public static final Block POLISHED_DESERT_ROSE_STAIRS = registerBlock("polished_desert_rose_stairs",
+            new StairsBlock(POLISHED_DESERT_ROSE_BLOCK.getDefaultState(), AbstractBlock.Settings.create().requiresTool()
+                    .mapColor(MapColor.PALE_YELLOW).strength(2.0F, 6.0F)
+                    .sounds(BlockSoundGroup.CORAL)));
+
+    public static final Block POLISHED_DESERT_ROSE_WALL = registerBlock("polished_desert_rose_wall",
+            new WallBlock(AbstractBlock.Settings.create().requiresTool()
+                    .mapColor(MapColor.PALE_YELLOW).strength(2.0F, 6.0F)
+                    .sounds(BlockSoundGroup.CORAL)));
+
+
+
     public static final Block DESERT_ROSE_CLUSTER = registerBlock("desert_rose_cluster",
-            new RoseClusterBlock(AbstractBlock.Settings.create().mapColor(MapColor.PALE_YELLOW)
+            new ClusterBlock(AbstractBlock.Settings.create().mapColor(MapColor.PALE_YELLOW)
                     .strength(0.4F).sounds(BlockSoundGroup.CORAL).pistonBehavior(PistonBehavior.DESTROY)
                     .noCollision().nonOpaque()));
 
     public static final Block ACTIVE_DESERT_ROSE_CLUSTER = registerItemlessBlock("active_desert_rose_cluster",
-            new ActiveRoseClusterBlock(DESERT_ROSE_CLUSTER,  AbstractBlock.Settings.create().mapColor(MapColor.PALE_YELLOW)
+            new ClusterGrowerBlock(DESERT_ROSE_CLUSTER,  AbstractBlock.Settings.create().mapColor(MapColor.PALE_YELLOW)
                     .strength(1.0F).sounds(BlockSoundGroup.CORAL)
                     .pistonBehavior(PistonBehavior.DESTROY).ticksRandomly()
                     .requiresTool()));
 
-    public static final Block MESA_ROSE_CLUSTER_BLOCK = registerBlock("mesa_rose_cluster_block",
+
+
+    public static final Block MESA_ROSE_BLOCK = registerBlock("mesa_rose_block",
             new Block(AbstractBlock.Settings.create().mapColor(MapColor.ORANGE)
                     .strength(1.0F).sounds(BlockSoundGroup.CORAL)
                     .requiresTool()));
 
+    public static final Block MESA_ROSE_SLAB = registerBlock("mesa_rose_slab",
+            new SlabBlock(AbstractBlock.Settings.create().requiresTool()
+                    .mapColor(MapColor.ORANGE).strength(2.0F, 6.0F)
+                    .sounds(BlockSoundGroup.CORAL)));
+
+    public static final Block MESA_ROSE_STAIRS = registerBlock("mesa_rose_stairs",
+            new StairsBlock(MESA_ROSE_BLOCK.getDefaultState(), AbstractBlock.Settings.create().requiresTool()
+                    .mapColor(MapColor.ORANGE).strength(2.0F, 6.0F)
+                    .sounds(BlockSoundGroup.CORAL)));
+
+    public static final Block MESA_ROSE_WALL = registerBlock("mesa_rose_wall",
+            new WallBlock(AbstractBlock.Settings.create().requiresTool()
+                    .mapColor(MapColor.ORANGE).strength(2.0F, 6.0F)
+                    .sounds(BlockSoundGroup.CORAL)));
+
+    public static final Block POLISHED_MESA_ROSE_BLOCK = registerBlock("polished_mesa_rose_block",
+            new Block(AbstractBlock.Settings.create().mapColor(MapColor.ORANGE)
+                    .strength(1.0F).sounds(BlockSoundGroup.CORAL)
+                    .requiresTool()));
+
+    public static final Block POLISHED_MESA_ROSE_SLAB = registerBlock("polished_mesa_rose_slab",
+            new SlabBlock(AbstractBlock.Settings.create().requiresTool()
+                    .mapColor(MapColor.ORANGE).strength(2.0F, 6.0F)
+                    .sounds(BlockSoundGroup.CORAL)));
+
+    public static final Block POLISHED_MESA_ROSE_STAIRS = registerBlock("polished_mesa_rose_stairs",
+            new StairsBlock(POLISHED_MESA_ROSE_BLOCK.getDefaultState(), AbstractBlock.Settings.create().requiresTool()
+                    .mapColor(MapColor.ORANGE).strength(2.0F, 6.0F)
+                    .sounds(BlockSoundGroup.CORAL)));
+
+    public static final Block POLISHED_MESA_ROSE_WALL = registerBlock("polished_mesa_rose_wall",
+            new WallBlock(AbstractBlock.Settings.create().requiresTool()
+                    .mapColor(MapColor.ORANGE).strength(2.0F, 6.0F)
+                    .sounds(BlockSoundGroup.CORAL)));
+
+
+
     public static final Block MESA_ROSE_CLUSTER = registerBlock("mesa_rose_cluster",
-            new RoseClusterBlock(AbstractBlock.Settings.create().mapColor(MapColor.ORANGE)
+            new ClusterBlock(AbstractBlock.Settings.create().mapColor(MapColor.ORANGE)
                     .strength(0.4F).sounds(BlockSoundGroup.CORAL).pistonBehavior(PistonBehavior.DESTROY)
                     .noCollision().nonOpaque()));
 
     public static final Block ACTIVE_MESA_ROSE_CLUSTER = registerItemlessBlock("active_mesa_rose_cluster",
-            new ActiveRoseClusterBlock(MESA_ROSE_CLUSTER,  AbstractBlock.Settings.create().mapColor(MapColor.ORANGE)
+            new ClusterGrowerBlock(MESA_ROSE_CLUSTER,  AbstractBlock.Settings.create().mapColor(MapColor.ORANGE)
                     .strength(1.0F).sounds(BlockSoundGroup.CORAL)
                     .pistonBehavior(PistonBehavior.DESTROY).ticksRandomly()
                     .requiresTool()));
@@ -236,6 +320,86 @@ public class OrganicallyModBlocks {
                     .mapColor(MapColor.PALE_GREEN).breakInstantly().ticksRandomly()
                     .sounds(BlockSoundGroup.SLIME).luminance(Blocks.createLightLevelFromLitBlockState(8))
                     .nonOpaque()));
+
+    public static final Block SEA_ROCK = registerBlock("sea_rock",
+            new Block(AbstractBlock.Settings.create().requiresTool()
+                    .mapColor(MapColor.BLACK).instrument(NoteBlockInstrument.BASEDRUM)
+                    .strength(2.0F, 6.0F).sounds(BlockSoundGroup.STONE)));
+
+    public static final Block SEA_ROCK_SLAB = registerBlock("sea_rock_slab",
+            new SlabBlock(AbstractBlock.Settings.create().requiresTool()
+                    .mapColor(MapColor.BLACK).instrument(NoteBlockInstrument.BASEDRUM)
+                    .strength(2.0F, 6.0F).sounds(BlockSoundGroup.STONE)));
+
+    public static final Block SEA_ROCK_STAIRS = registerBlock("sea_rock_stairs",
+            new StairsBlock(SEA_ROCK.getDefaultState(), AbstractBlock.Settings.create().requiresTool()
+                    .mapColor(MapColor.BLACK).instrument(NoteBlockInstrument.BASEDRUM)
+                    .strength(2.0F, 6.0F).sounds(BlockSoundGroup.STONE)));
+
+    public static final Block SEA_ROCK_WALL = registerBlock("sea_rock_wall",
+            new WallBlock(AbstractBlock.Settings.create().requiresTool()
+                    .mapColor(MapColor.BLACK).instrument(NoteBlockInstrument.BASEDRUM)
+                    .strength(2.0F, 6.0F).sounds(BlockSoundGroup.STONE)));
+
+    public static final Block POLISHED_SEA_ROCK = registerBlock("polished_sea_rock",
+            new Block(AbstractBlock.Settings.create().requiresTool()
+                    .mapColor(MapColor.BLACK).instrument(NoteBlockInstrument.BASEDRUM)
+                    .strength(2.0F, 6.0F).sounds(BlockSoundGroup.STONE)));
+
+    public static final Block POLISHED_SEA_ROCK_SLAB = registerBlock("polished_sea_rock_slab",
+            new SlabBlock(AbstractBlock.Settings.create().requiresTool()
+                    .mapColor(MapColor.BLACK).instrument(NoteBlockInstrument.BASEDRUM)
+                    .strength(2.0F, 6.0F).sounds(BlockSoundGroup.STONE)));
+
+    public static final Block POLISHED_SEA_ROCK_STAIRS = registerBlock("polished_sea_rock_stairs",
+            new StairsBlock(SEA_ROCK.getDefaultState(), AbstractBlock.Settings.create().requiresTool()
+                    .mapColor(MapColor.BLACK).instrument(NoteBlockInstrument.BASEDRUM)
+                    .strength(2.0F, 6.0F).sounds(BlockSoundGroup.STONE)));
+
+    public static final Block POLISHED_SEA_ROCK_WALL = registerBlock("polished_sea_rock_wall",
+            new WallBlock(AbstractBlock.Settings.create().requiresTool()
+                    .mapColor(MapColor.BLACK).instrument(NoteBlockInstrument.BASEDRUM)
+                    .strength(2.0F, 6.0F).sounds(BlockSoundGroup.STONE)));
+
+    public static final Block SEA_ROCK_BRICKS = registerBlock("sea_rock_bricks",
+            new Block(AbstractBlock.Settings.create().requiresTool()
+                    .mapColor(MapColor.BLACK).instrument(NoteBlockInstrument.BASEDRUM)
+                    .strength(2.0F, 6.0F).sounds(BlockSoundGroup.STONE)));
+
+    public static final Block CHISELED_SEA_ROCK_BRICKS = registerBlock("chiseled_sea_rock_bricks",
+            new Block(AbstractBlock.Settings.create().requiresTool()
+                    .mapColor(MapColor.BLACK).instrument(NoteBlockInstrument.BASEDRUM)
+                    .strength(2.0F, 6.0F).sounds(BlockSoundGroup.STONE)));
+
+    public static final Block SEA_ROCK_BRICKS_SLAB = registerBlock("sea_rock_bricks_slab",
+            new SlabBlock(AbstractBlock.Settings.create().requiresTool()
+                    .mapColor(MapColor.BLACK).instrument(NoteBlockInstrument.BASEDRUM)
+                    .strength(2.0F, 6.0F).sounds(BlockSoundGroup.STONE)));
+
+    public static final Block SEA_ROCK_BRICKS_STAIRS = registerBlock("sea_rock_bricks_stairs",
+            new StairsBlock(SEA_ROCK.getDefaultState(), AbstractBlock.Settings.create().requiresTool()
+                    .mapColor(MapColor.BLACK).instrument(NoteBlockInstrument.BASEDRUM)
+                    .strength(2.0F, 6.0F).sounds(BlockSoundGroup.STONE)));
+
+    public static final Block SEA_ROCK_BRICK_WALL = registerBlock("sea_rock_brick_wall",
+            new WallBlock(AbstractBlock.Settings.create().requiresTool()
+                    .mapColor(MapColor.BLACK).instrument(NoteBlockInstrument.BASEDRUM)
+                    .strength(2.0F, 6.0F).sounds(BlockSoundGroup.STONE)));
+
+    public static final Block MOLLUSKS = registerBlock("mollusks",
+            new ClusterBlock(AbstractBlock.Settings.create().mapColor(MapColor.GRAY)
+                    .breakInstantly().sounds(BlockSoundGroup.CORAL).pistonBehavior(PistonBehavior.DESTROY)
+                    .noCollision().nonOpaque()));
+
+    public static final Block SCALLOP = registerBlock("scallop",
+            new ScallopBlock(AbstractBlock.Settings.create().mapColor(MapColor.GRAY)
+                    .breakInstantly().sounds(BlockSoundGroup.CORAL)
+                    .pistonBehavior(PistonBehavior.DESTROY).nonOpaque()));
+
+    public static final Block ANTARCTIC_SCALLOP = registerBlock("antarctic_scallop",
+            new ScallopBlock(AbstractBlock.Settings.create().mapColor(MapColor.GRAY)
+                    .breakInstantly().sounds(BlockSoundGroup.CORAL)
+                    .pistonBehavior(PistonBehavior.DESTROY).nonOpaque()));
 
 
 
@@ -294,14 +458,19 @@ public class OrganicallyModBlocks {
             entries.addAfter(Items.BROWN_MUSHROOM, DESERT_SHAGGY_MANE);
             entries.addAfter(Items.BROWN_MUSHROOM_BLOCK, DESERT_SHAGGY_MANE_BLOCK);
             entries.addAfter(Items.POINTED_DRIPSTONE, DESERT_ROSE_CLUSTER);
-            entries.addAfter(DESERT_ROSE_CLUSTER, DESERT_ROSE_CLUSTER_BLOCK);
-            entries.addAfter(DESERT_ROSE_CLUSTER_BLOCK, MESA_ROSE_CLUSTER);
-            entries.addAfter(MESA_ROSE_CLUSTER, MESA_ROSE_CLUSTER_BLOCK);
+            entries.addAfter(DESERT_ROSE_CLUSTER, DESERT_ROSE_BLOCK);
+            entries.addAfter(DESERT_ROSE_BLOCK, MESA_ROSE_CLUSTER);
+            entries.addAfter(MESA_ROSE_CLUSTER, MESA_ROSE_BLOCK);
             entries.addBefore(Items.COAL_ORE, FOSSIL_CLUMP);
             entries.addAfter(Items.FERN, TRIODIA);
             entries.addAfter(TRIODIA, SNAKE_PLANT);
+            entries.addAfter(SNAKE_PLANT, SALTBUSH);
             entries.addAfter(Items.SNIFFER_EGG, GNAWER_EGG);
             entries.addAfter(Items.HONEY_BLOCK, FLUORESCENT_BLOCK);
+            entries.addBefore(Items.SPONGE, MOLLUSKS);
+            entries.addBefore(MOLLUSKS, SCALLOP);
+            entries.addBefore(SCALLOP, ANTARCTIC_SCALLOP);
+            entries.addAfter(Items.GRANITE, SEA_ROCK);
 
         });
 
@@ -319,6 +488,35 @@ public class OrganicallyModBlocks {
             entries.addAfter(PALM_DOOR, PALM_TRAPDOOR);
             entries.addAfter(PALM_TRAPDOOR, PALM_PRESSURE_PLATE);
             entries.addAfter(PALM_PRESSURE_PLATE, PALM_BUTTON);
+            entries.addBefore(Items.DIORITE, SEA_ROCK);
+            entries.addAfter(SEA_ROCK, SEA_ROCK_STAIRS);
+            entries.addAfter(SEA_ROCK_STAIRS, SEA_ROCK_SLAB);
+            entries.addAfter(SEA_ROCK_SLAB, SEA_ROCK_WALL);
+            entries.addAfter(SEA_ROCK_WALL, POLISHED_SEA_ROCK);
+            entries.addAfter(POLISHED_SEA_ROCK, POLISHED_SEA_ROCK_STAIRS);
+            entries.addAfter(POLISHED_SEA_ROCK_STAIRS, POLISHED_SEA_ROCK_SLAB);
+            entries.addAfter(POLISHED_SEA_ROCK_SLAB, POLISHED_SEA_ROCK_WALL);
+            entries.addAfter(POLISHED_SEA_ROCK_WALL, SEA_ROCK_BRICKS);
+            entries.addAfter(SEA_ROCK_BRICKS, SEA_ROCK_BRICKS_STAIRS);
+            entries.addAfter(SEA_ROCK_BRICKS_STAIRS, SEA_ROCK_BRICKS_SLAB);
+            entries.addAfter(SEA_ROCK_BRICKS_SLAB, SEA_ROCK_BRICK_WALL);
+            entries.addAfter(SEA_ROCK_BRICK_WALL, CHISELED_SEA_ROCK_BRICKS);
+            entries.addBefore(Items.SANDSTONE, DESERT_ROSE_BLOCK);
+            entries.addAfter(DESERT_ROSE_BLOCK, DESERT_ROSE_STAIRS);
+            entries.addAfter(DESERT_ROSE_STAIRS, DESERT_ROSE_SLAB);
+            entries.addAfter(DESERT_ROSE_SLAB, DESERT_ROSE_WALL);
+            entries.addAfter(DESERT_ROSE_WALL, POLISHED_DESERT_ROSE_BLOCK);
+            entries.addAfter(POLISHED_DESERT_ROSE_BLOCK, POLISHED_DESERT_ROSE_STAIRS);
+            entries.addAfter(POLISHED_DESERT_ROSE_STAIRS, POLISHED_DESERT_ROSE_SLAB);
+            entries.addAfter(POLISHED_DESERT_ROSE_SLAB, POLISHED_DESERT_ROSE_WALL);
+            entries.addBefore(Items.RED_SANDSTONE, MESA_ROSE_BLOCK);
+            entries.addAfter(MESA_ROSE_BLOCK, MESA_ROSE_STAIRS);
+            entries.addAfter(MESA_ROSE_STAIRS, MESA_ROSE_SLAB);
+            entries.addAfter(MESA_ROSE_SLAB, MESA_ROSE_WALL);
+            entries.addAfter(MESA_ROSE_WALL, POLISHED_MESA_ROSE_BLOCK);
+            entries.addAfter(POLISHED_MESA_ROSE_BLOCK, POLISHED_MESA_ROSE_STAIRS);
+            entries.addAfter(POLISHED_MESA_ROSE_STAIRS, POLISHED_MESA_ROSE_SLAB);
+            entries.addAfter(POLISHED_MESA_ROSE_SLAB, POLISHED_MESA_ROSE_WALL);
         });
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> {

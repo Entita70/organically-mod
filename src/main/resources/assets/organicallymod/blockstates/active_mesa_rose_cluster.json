@@ -8,7 +8,7 @@
     },
 
     "age=2": {
-      "model": "organicallymod:block/mesa_rose_cluster_block"
+      "model": "organicallymod:block/mesa_rose_block"
     }
   }
 }

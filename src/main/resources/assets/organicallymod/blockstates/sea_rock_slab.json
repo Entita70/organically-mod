@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "organicallymod:block/sea_rock_slab"
+    },
+    "type=double": {
+      "model": "organicallymod:block/sea_rock"
+    },
+    "type=top": {
+      "model": "organicallymod:block/sea_rock_slab_top"
+    }
+  }
+}

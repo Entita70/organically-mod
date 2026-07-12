@@ -12,7 +12,7 @@ import net.minecraft.world.gen.GenerationStep;
 public class OrganicallyModFeaturesSpawns {
     public static void registerMobSpawns(){
         BiomeModifications.addSpawn(BiomeSelectors.includeByKey(BiomeKeys.WARM_OCEAN),
-                SpawnGroup.WATER_AMBIENT, OrganicallyModEntityTypes.LIONFISH, 7, 1, 2);
+                SpawnGroup.WATER_AMBIENT, OrganicallyModEntityTypes.LIONFISH, 9, 1, 2);
 
         BiomeModifications.addSpawn(BiomeSelectors.includeByKey(BiomeKeys.DESERT, BiomeKeys.BADLANDS, BiomeKeys.ERODED_BADLANDS),
                 SpawnGroup.MONSTER, OrganicallyModEntityTypes.SANDSTRIDER, 10, 1, 3);
@@ -25,23 +25,6 @@ public class OrganicallyModFeaturesSpawns {
     }
 
     public static void registerFlowersSpawns(){
-        BiomeModifications.addFeature(BiomeSelectors.includeByKey(BiomeKeys.DESERT),
-                GenerationStep.Feature.VEGETAL_DECORATION, OrganicallyModPlacedFeatures.PATCH_DESERT_MARIGOLDS);
-
-        BiomeModifications.addFeature(BiomeSelectors.includeByKey(BiomeKeys.DESERT),
-                GenerationStep.Feature.VEGETAL_DECORATION, OrganicallyModPlacedFeatures.PATCH_BRITTLEBUSH);
-
-        BiomeModifications.addFeature(BiomeSelectors.includeByKey(BiomeKeys.WOODED_BADLANDS, BiomeKeys.BADLANDS, BiomeKeys.DESERT),
-                GenerationStep.Feature.VEGETAL_DECORATION, OrganicallyModPlacedFeatures.PATCH_TRIODIA);
-
-        BiomeModifications.addFeature(BiomeSelectors.includeByKey(BiomeKeys.WOODED_BADLANDS),
-                GenerationStep.Feature.VEGETAL_DECORATION, OrganicallyModPlacedFeatures.PATCH_DESERT_SHAGGY_MANE_WOODED_MESA);
-
-        BiomeModifications.addFeature(BiomeSelectors.includeByKey(BiomeKeys.BADLANDS, BiomeKeys.ERODED_BADLANDS, BiomeKeys.DESERT),
-                GenerationStep.Feature.VEGETAL_DECORATION, OrganicallyModPlacedFeatures.PATCH_BARREL_CACTI);
-
-        BiomeModifications.addFeature(BiomeSelectors.tag(BiomeTags.IS_SAVANNA),
-                GenerationStep.Feature.VEGETAL_DECORATION, OrganicallyModPlacedFeatures.PATCH_SNAKE_PLANT);
 
     }
 

@@ -1,0 +1,8 @@
+{
+  "type": "organicallymod:rock",
+  "config": {
+    "state": {
+      "Name": "organicallymod:sea_rock"
+    }
+  }
+}

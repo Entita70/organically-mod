@@ -6,12 +6,16 @@ import net.minecraft.util.Identifier;
 import net.minecraft.world.gen.feature.FeatureConfig;
 import net.minecraft.world.gen.stateprovider.BlockStateProvider;
 
-public record DesertRoseFeatureConfig(BlockStateProvider cluster) implements FeatureConfig {
+public record DesertRoseFeatureConfig(BlockStateProvider block, BlockStateProvider cluster) implements FeatureConfig {
     public static final Codec<DesertRoseFeatureConfig> CODEC = RecordCodecBuilder.create((instance) -> {
         return instance.group(
+                BlockStateProvider.TYPE_CODEC.fieldOf("block").forGetter((desertRoseFeatureConfig) -> {
+                    return desertRoseFeatureConfig.block;}),
+
                 BlockStateProvider.TYPE_CODEC.fieldOf("cluster").forGetter((desertRoseFeatureConfig) -> {
-                    return desertRoseFeatureConfig.cluster;
-                })).apply(instance, DesertRoseFeatureConfig::new);
+                    return desertRoseFeatureConfig.cluster;})
+
+        ).apply(instance, DesertRoseFeatureConfig::new);
     });
 
 }

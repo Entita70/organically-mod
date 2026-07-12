@@ -1,0 +1,27 @@
+{
+  "feature": "organicallymod:mollusks_patch",
+  "placement": [
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:heightmap",
+      "heightmap": "OCEAN_FLOOR_WG"
+    },
+    {
+      "type": "minecraft:rarity_filter",
+      "chance": 6
+    },
+    {
+      "type": "minecraft:count",
+      "count": {
+        "type": "minecraft:uniform",
+        "max_inclusive": 16,
+        "min_inclusive": 8
+      }
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "type": "lithostitched:add_features",
+  "biomes": [
+    "minecraft:badlands",
+    "minecraft:eroded_badlands"
+  ],
+  "features": [
+    "organicallymod:patch_barrel_cacti_mesa"
+  ],
+  "step": "vegetal_decoration"
+}

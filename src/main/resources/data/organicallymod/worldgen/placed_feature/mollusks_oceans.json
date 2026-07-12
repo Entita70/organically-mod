@@ -1,0 +1,31 @@
+{
+  "feature": "organicallymod:mollusks_oceans",
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": {
+        "type": "minecraft:uniform",
+        "max_inclusive": 256,
+        "min_inclusive": 236
+      }
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:height_range",
+      "height": {
+        "type": "minecraft:uniform",
+        "max_inclusive": {
+          "absolute": 68
+        },
+        "min_inclusive": {
+          "absolute": 14
+        }
+      }
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

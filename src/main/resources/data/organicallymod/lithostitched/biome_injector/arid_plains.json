@@ -1,0 +1,15 @@
+{
+  "type": "lithostitched:replace_partially",
+  "dimension": "minecraft:overworld",
+  "targets": "minecraft:plains",
+  "replacement": "organicallymod:arid_plains",
+  "parameters": {
+    "temperature": {
+      "min_inclusive": 0.29
+    },
+    "humidity": {
+      "max_inclusive": 0.09
+    }
+  },
+  "region": "organicallymod:arid"
+}

@@ -188,7 +188,7 @@ public class GnawerEntity extends AnimalEntity {
     }
 
     public void setBaby(boolean baby) {
-        this.setBreedingAge(baby ? -48000 : 0);
+        this.setBreedingAge(baby ? -24000 : 0);
     }
 
     @Override

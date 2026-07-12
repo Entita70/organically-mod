@@ -1,0 +1,14 @@
+{
+  "type": "organicallymod:cluster_placer",
+  "config": {
+    "block": "organicallymod:mollusks",
+    "can_be_placed_on": [
+      "organicallymod:sea_rock",
+      "minecraft:gravel"
+    ],
+    "can_place_on_ceiling": false,
+    "can_place_on_floor": true,
+    "can_place_on_wall": true,
+    "search_range": 50
+  }
+}

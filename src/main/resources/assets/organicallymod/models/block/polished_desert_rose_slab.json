@@ -1,0 +1,9 @@
+{
+	"parent": "minecraft:block/slab",
+	"textures": {
+		"bottom": "organicallymod:block/polished_desert_rose_block",
+		"side": "organicallymod:block/polished_desert_rose_block",
+		"top": "organicallymod:block/polished_desert_rose_block"
+
+	}
+}

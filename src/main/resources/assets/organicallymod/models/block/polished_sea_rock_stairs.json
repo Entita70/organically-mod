@@ -1,0 +1,9 @@
+{
+	"parent": "minecraft:block/stairs",
+	"textures": {
+		"bottom": "organicallymod:block/polished_sea_rock",
+		"side": "organicallymod:block/polished_sea_rock",
+		"top": "organicallymod:block/polished_sea_rock"
+
+	}
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=west": {
+      "model": "organicallymod:block/antarctic_scallop",
+      "y": 270
+    },
+    "facing=south": {
+      "model": "organicallymod:block/antarctic_scallop",
+      "y": 180
+    },
+    "facing=north": {
+      "model": "organicallymod:block/antarctic_scallop"
+    },
+    "facing=east": {
+      "model": "organicallymod:block/antarctic_scallop",
+      "y": 90
+    }
+  }
+}

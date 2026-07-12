@@ -1,6 +1,0 @@
-{
-	"parent": "minecraft:block/cube_all",
-	"textures": {
-		"all": "organicallymod:block/desert_rose_cluster_block"
-	}
-}

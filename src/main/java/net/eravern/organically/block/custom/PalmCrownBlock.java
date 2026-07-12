@@ -6,6 +6,7 @@ import net.minecraft.block.*;
 import net.minecraft.entity.ItemEntity;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Items;
 import net.minecraft.registry.tag.ItemTags;
@@ -24,7 +25,6 @@ import net.minecraft.world.World;
 public class PalmCrownBlock extends Block{
     public static final int GROW_CHANCE = 12;
 
-
     public PalmCrownBlock(Settings settings) {
         super(settings);
     }
@@ -36,7 +36,11 @@ public class PalmCrownBlock extends Block{
 
     @Override
     protected void randomTick(BlockState state, ServerWorld world, BlockPos pos, Random random) {
-        if(world.random.nextInt(GROW_CHANCE) == 0){
+        int GROW = GROW_CHANCE;
+        if (world.getBlockState(pos.down()).isOf(OrganicallyModBlocks.PALM_CROWN)){
+            GROW *= 2;
+        }
+        if(world.random.nextInt(GROW) == 0){
             int r = world.random.nextInt(4);
             switch (r){
                 case 0:
@@ -67,15 +71,20 @@ public class PalmCrownBlock extends Block{
 
     @Override
     protected ItemActionResult onUseWithItem(ItemStack stack, BlockState state, World world, BlockPos pos, PlayerEntity player, Hand hand, BlockHitResult hit) {
-        if (!stack.isOf(Items.SHEARS)){
+        if (!stack.isOf(Items.SHEARS) && !stack.isIn(ItemTags.AXES)){
             return super.onUseWithItem(stack, state, world, pos, player, hand, hit);
-        }else {
+        }else if (stack.isOf(Items.SHEARS)){
             ItemEntity itemEntity = new ItemEntity(world, pos.getX()+0.5, pos.getY()+1, pos.getZ()+0.5, new ItemStack(OrganicallyModItems.PALM_SALAD, world.random.nextInt(2)+1));
             itemEntity.setVelocity(0, 0.15, 0);
             world.addBlockBreakParticles(pos, OrganicallyModBlocks.PALM_CROWN.getDefaultState());
             world.setBlockState(pos, OrganicallyModBlocks.PALM_LOG.getDefaultState());
             world.playSound(null, pos, SoundEvents.ITEM_AXE_STRIP, SoundCategory.BLOCKS, 1.0F, 1.0F);
             world.spawnEntity(itemEntity);
+            stack.damage(1, player, LivingEntity.getSlotForHand(hand));
+        }else if (stack.isIn(ItemTags.AXES)){
+            world.addBlockBreakParticles(pos, OrganicallyModBlocks.PALM_CROWN.getDefaultState());
+            world.setBlockState(pos, OrganicallyModBlocks.PALM_LOG.getDefaultState());
+            world.playSound(null, pos, SoundEvents.ITEM_AXE_STRIP, SoundCategory.BLOCKS, 1.0F, 1.0F);
             stack.damage(1, player, LivingEntity.getSlotForHand(hand));
         }
         return ItemActionResult.success(world.isClient);

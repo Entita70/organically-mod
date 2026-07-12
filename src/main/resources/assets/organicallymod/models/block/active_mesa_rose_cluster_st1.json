@@ -1,7 +1,7 @@
 {
 	"parent": "organicallymod:block/template_rose_cluster_st1",
 	"textures": {
-		"all": "organicallymod:block/mesa_rose_cluster_block",
-		"particle": "organicallymod:block/mesa_rose_cluster_block"
+		"all": "organicallymod:block/mesa_rose_block",
+		"particle": "organicallymod:block/mesa_rose_block"
 	}
 }

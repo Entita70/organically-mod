@@ -6,11 +6,45 @@
     "organicallymod:mesa_rose_cluster",
     "organicallymod:active_desert_rose_cluster",
     "organicallymod:active_mesa_rose_cluster",
-    "organicallymod:desert_rose_cluster_block",
-    "organicallymod:mesa_rose_cluster_block",
+    "organicallymod:desert_rose_block",
+    "organicallymod:desert_rose_stairs",
+    "organicallymod:desert_rose_slab",
+    "organicallymod:desert_rose_wall",
+    "organicallymod:polished_desert_rose_block",
+    "organicallymod:polished_desert_rose_stairs",
+    "organicallymod:polished_desert_rose_slab",
+    "organicallymod:polished_desert_rose_wall",
+    "organicallymod:mesa_rose_block",
+    "organicallymod:mesa_rose_stairs",
+    "organicallymod:mesa_rose_slab",
+    "organicallymod:mesa_rose_wall",
+    "organicallymod:polished_mesa_rose_block",
+    "organicallymod:polished_mesa_rose_stairs",
+    "organicallymod:polished_mesa_rose_slab",
+    "organicallymod:polished_mesa_rose_wall",
+
     "organicallymod:helix_fossil",
     "organicallymod:pointy_fossil",
-    "organicallymod:fossil_clump"
+    "organicallymod:fossil_clump",
+
+    "organicallymod:mollusks",
+    "organicallymod:scallop",
+    "organicallymod:antarctic_scallop",
+
+
+    "organicallymod:sea_rock",
+    "organicallymod:polished_sea_rock",
+    "organicallymod:polished_sea_rock_slab",
+    "organicallymod:polished_sea_rock_stairs",
+    "organicallymod:polished_sea_rock_wall",
+    "organicallymod:sea_rock_slab",
+    "organicallymod:sea_rock_stairs",
+    "organicallymod:sea_rock_wall",
+    "organicallymod:sea_rock_bricks",
+    "organicallymod:chiseled_sea_rock_bricks",
+    "organicallymod:sea_rock_bricks_slab",
+    "organicallymod:sea_rock_bricks_stairs",
+    "organicallymod:sea_rock_brick_wall"
 
 
   ]

@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "organicallymod:sea_rock_slab",
+    "organicallymod:sea_rock_bricks_slab",
+    "organicallymod:polished_sea_rock_slab",
+    "organicallymod:desert_rose_slab",
+    "organicallymod:polished_desert_rose_slab",
+    "organicallymod:mesa_rose_slab",
+    "organicallymod:polished_mesa_rose_slab"
+  ]
+}

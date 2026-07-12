@@ -1,0 +1,10 @@
+{
+  "type": "lithostitched:add_features",
+  "biomes": "#minecraft:is_ocean",
+  "features": [
+    "organicallymod:ocean_sea_pillars",
+    "organicallymod:ocean_sea_rocks"
+
+  ],
+  "step": "local_modifications"
+}

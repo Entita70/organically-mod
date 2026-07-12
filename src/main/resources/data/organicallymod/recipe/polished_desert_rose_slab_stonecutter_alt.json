@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "organicallymod:desert_rose_block"
+  },
+  "result": {
+    "count": 2,
+    "id": "organicallymod:polished_desert_rose_slab"
+  }
+}

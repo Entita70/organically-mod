@@ -1,0 +1,9 @@
+{
+	"parent": "minecraft:block/slab",
+	"textures": {
+		"bottom": "organicallymod:block/sea_rock",
+		"side": "organicallymod:block/sea_rock",
+		"top": "organicallymod:block/sea_rock"
+
+	}
+}

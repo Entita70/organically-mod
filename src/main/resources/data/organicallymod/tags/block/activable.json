@@ -1,6 +1,8 @@
 {
   "values": [
-    "organicallymod:desert_rose_cluster_block",
-    "organicallymod:mesa_rose_cluster_block"
+    "organicallymod:desert_rose_block",
+    "organicallymod:mesa_rose_block",
+    "minecraft:amethyst_block"
+
   ]
 }

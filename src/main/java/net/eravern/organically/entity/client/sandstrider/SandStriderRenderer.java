@@ -1,7 +1,6 @@
 package net.eravern.organically.entity.client.sandstrider;
 
 import net.eravern.organically.OrganicallyMod;
-import net.eravern.organically.entity.client.lionfish.LionfishModel;
 import net.eravern.organically.entity.custom.SandStriderEntity;
 import net.minecraft.client.render.VertexConsumerProvider;
 import net.minecraft.client.render.entity.EntityRendererFactory;
@@ -13,7 +12,9 @@ import java.util.Objects;
 
 public class SandStriderRenderer extends MobEntityRenderer<SandStriderEntity, SandStriderModel<SandStriderEntity>> {
     public static final Identifier DESERT = Identifier.of(OrganicallyMod.MOD_ID, "textures/entity/sandstrider/sandstrider.png");
+    public static final Identifier DESERT_ANGRY = Identifier.of(OrganicallyMod.MOD_ID, "textures/entity/sandstrider/angry/sandstrider.png");
     public static final Identifier MESA = Identifier.of(OrganicallyMod.MOD_ID, "textures/entity/sandstrider/sandstrider_mesa.png");
+    public static final Identifier MESA_ANGRY = Identifier.of(OrganicallyMod.MOD_ID, "textures/entity/sandstrider/angry/sandstrider_mesa.png");
 
 
 
@@ -31,9 +32,18 @@ public class SandStriderRenderer extends MobEntityRenderer<SandStriderEntity, Sa
     public Identifier getTexture(SandStriderEntity entity) {
         Identifier TEXTURE;
         if (Objects.requireNonNull(entity.getVariant()) == SandStriderVariants.MESA) {
-            TEXTURE = MESA;
+            if (entity.isAngry()){
+                TEXTURE = MESA_ANGRY;
+            }else{
+                TEXTURE = MESA;
+            }
+
         } else {
-            TEXTURE = DESERT;
+            if (entity.isAngry()){
+                TEXTURE = DESERT_ANGRY;
+            }else{
+                TEXTURE = DESERT;
+            }
         }
         return TEXTURE;
     }

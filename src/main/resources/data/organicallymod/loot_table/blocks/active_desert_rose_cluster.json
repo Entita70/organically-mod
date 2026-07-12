@@ -20,7 +20,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "organicallymod:desert_rose_cluster_block"
+          "name": "organicallymod:desert_rose_block"
         }
       ],
       "rolls": 1.0

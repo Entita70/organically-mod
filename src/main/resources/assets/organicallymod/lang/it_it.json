@@ -1,0 +1,142 @@
+{
+
+
+  "item.organicallymod.lionfish" : "Pesce scorpione",
+  "item.organicallymod.cooked_lionfish" : "Pesce scorpione cotto",
+  "item.organicallymod.lionfish_spike" : "Spuntone di pesce scorpione",
+  "item.organicallymod.seafarers_chow" : "Zuppa del marinaio",
+  "item.organicallymod.lionfish_bucket" : "Secchio di pesce scorpione",
+  "item.organicallymod.lionfish_spawn_egg" : "Uovo generatore di pesce scorpione",
+  "item.organicallymod.sandstrider_spawn_egg" : "Uovo generatore di desertola",
+  "item.organicallymod.gnawer_spawn_egg" : "Uovo generatore di masticatore",
+  "item.organicallymod.coconut" : "Noce di cocco",
+  "item.organicallymod.coconut_slice" : "Fetta di cocco",
+  "item.organicallymod.palm_salad" : "Insalata di palma",
+  "item.organicallymod.sandstrider_scale" : "Squama di desertola",
+  "item.organicallymod.sandstrider_boots" : "Stivali di desertola",
+  "item.organicallymod.trowel" : "Paletta",
+  "item.organicallymod.fluorescent_mucus" : "Muco fluorescente",
+  "item.organicallymod.calcium" : "Calcio",
+  "item.organicallymod.active_powder" : "Polvere attiva",
+  "item.organicallymod.palm_sign" : "Cartello di palma",
+  "item.organicallymod.palm_hanging_sign" : "Insegna di palma",
+  "item.organicallymod.palm_boat" : "Barca di palma",
+  "item.organicallymod.palm_chest_boat" : "Barca di palma con baule",
+
+
+  "block.organicallymod.sprouted_coconut" : "Cocco germogliato",
+  "block.organicallymod.coconut" : "Noce di cocco",
+  "block.organicallymod.coconut_crop" : "Noce di cocco",
+  "block.organicallymod.coconut_lamp" : "Lampada di cocco",
+  "block.organicallymod.palm_crown" : "Corona di palma",
+  "block.organicallymod.palm_log" : "Tronco di palma",
+  "block.organicallymod.palm_wood" : "Legno di palma",
+  "block.organicallymod.stripped_palm_log" : "Tronco di palma scortecciato",
+  "block.organicallymod.stripped_palm_wood" : "Legno di palma scortecciato",
+  "block.organicallymod.palm_planks" : "Assi di palma",
+  "block.organicallymod.palm_stairs" : "Scalini di palma",
+  "block.organicallymod.palm_slab" : "Lastra di palma",
+  "block.organicallymod.palm_leaves" : "Foglie di palma",
+  "block.organicallymod.palm_fence" : "Staccionata di palma",
+  "block.organicallymod.palm_fence_gate" : "Cancelletto di palma",
+  "block.organicallymod.palm_door" : "Porta di palma",
+  "block.organicallymod.palm_trapdoor" : "Botola di palma",
+  "block.organicallymod.palm_button" : "Pulsante di palma",
+  "block.organicallymod.palm_pressure_plate" : "Pedana a pressione di palma",
+  "block.organicallymod.palm_sign" : "Cartello di palma",
+  "block.organicallymod.palm_wall_sign" : "Cartello di palma",
+  "block.organicallymod.palm_hanging_sign" : "Insegna di palma",
+  "block.organicallymod.palm_hanging_wall_sign" : "Insegna di palma",
+  "block.organicallymod.fluorescent_block" : "Blocco fluorescente",
+
+  "block.organicallymod.mollusks" : "Molluschi",
+  "block.organicallymod.scallop" : "Cappa santa",
+  "block.organicallymod.antarctic_scallop" : "Cappa santa antartica",
+  "block.organicallymod.sea_rock" : "Roccia marina",
+  "block.organicallymod.sea_rock_stairs" : "Scalini di roccia marina",
+  "block.organicallymod.sea_rock_slab" : "Lastra di roccia marina",
+  "block.organicallymod.sea_rock_wall" : "Muretto di roccia marina",
+  "block.organicallymod.polished_sea_rock" : "Roccia marina levigata",
+  "block.organicallymod.polished_sea_rock_stairs" : "Scalini di roccia marina levigata",
+  "block.organicallymod.polished_sea_rock_slab" : "Lastra di roccia marina levigata",
+  "block.organicallymod.polished_sea_rock_wall" : "Muretto di roccia marina levigata",
+  "block.organicallymod.sea_rock_bricks" : "Mattoni di roccia marina",
+  "block.organicallymod.sea_rock_bricks_stairs" : "Scalini di mattoni di roccia marina",
+  "block.organicallymod.sea_rock_bricks_slab" : "Lastra di mattoni di roccia marina",
+  "block.organicallymod.sea_rock_brick_wall" : "Muretto di mattoni di roccia marina",
+  "block.organicallymod.chiseled_sea_rock_bricks" : "Mattoni di roccia marina cesellati",
+
+
+
+  "block.organicallymod.brittlebush" : "Encelia farinosa",
+  "block.organicallymod.desert_marigolds" : "Calendule del deserto",
+  "block.organicallymod.potted_desert_marigolds" : "Calendule del deserto invasate",
+  "block.organicallymod.desert_shaggy_mane" : "Coprinus deserticola",
+  "block.organicallymod.potted_desert_shaggy_mane" : "Coprinus deserticola invasato",
+  "block.organicallymod.desert_shaggy_mane_block" : "Blocco di coprinus deserticola",
+  "block.organicallymod.barrel_cactus" : "Cactus a barile",
+  "block.organicallymod.potted_barrel_cactus" : "Cactus a barile invasato",
+  "block.organicallymod.triodia" : "Triodia",
+  "block.organicallymod.potted_triodia" : "Triodia invasata",
+  "block.organicallymod.snake_plant" : "Lingua di suocera",
+  "block.organicallymod.potted_snake_plant" : "Lingua di suocera invasata",
+  "block.organicallymod.saltbush" : "Atriplice",
+
+
+  "block.organicallymod.fossil_clump" : "Ammasso di fossili",
+  "block.organicallymod.helix_fossil" : "Fossile a spirale",
+  "block.organicallymod.pointy_fossil" : "Fossile appuntito",
+  "block.organicallymod.gnawer_egg" : "Uovo di masticatore",
+
+
+  "block.organicallymod.active_desert_rose_cluster" : "Ammasso attivo di rose del deserto",
+  "block.organicallymod.active_mesa_rose_cluster" : "Ammasso attivo di rose della mesa",
+  "block.organicallymod.desert_rose_block" : "Blocco di rosa del deserto",
+  "block.organicallymod.desert_rose_stairs" : "Scalini di rosa del deserto",
+  "block.organicallymod.desert_rose_slab" : "Lastra di rosa del deserto",
+  "block.organicallymod.desert_rose_wall" : "Muretto di rosa del deserto",
+  "block.organicallymod.polished_desert_rose_block" : "Blocco di rosa del deserto levigato",
+  "block.organicallymod.polished_desert_rose_stairs" : "Scalini di rosa del deserto levigati",
+  "block.organicallymod.polished_desert_rose_slab" : "Lastra di rosa del deserto levigata",
+  "block.organicallymod.polished_desert_rose_wall" : "Muretto di rosa del deserto levigato",
+  "block.organicallymod.desert_rose_cluster" : "Rosa del deserto",
+  "block.organicallymod.mesa_rose_block" : "Blocco di rosa della mesa",
+  "block.organicallymod.mesa_rose_stairs" : "Scalini di rosa della mesa",
+  "block.organicallymod.mesa_rose_slab" : "Lastra di rosa della mesa",
+  "block.organicallymod.mesa_rose_wall" : "Muretto di rosa della mesa",
+  "block.organicallymod.polished_mesa_rose_block" : "Blocco di rosa della mesa levigato",
+  "block.organicallymod.polished_mesa_rose_stairs" : "Scalini di rosa della mesa levigati",
+  "block.organicallymod.polished_mesa_rose_slab" : "Lastra di rosa della mesa levigata",
+  "block.organicallymod.polished_mesa_rose_wall" : "Muretto di rosa della mesa levigato",
+  "block.organicallymod.mesa_rose_cluster" : "Rosa della mesa",
+
+
+  "biome.organicallymod.arid_plains" : "Pianure aride",
+
+
+
+  "entity.organicallymod.lionfish_spike" : "Spuntone di pesce scorpione",
+  "entity.organicallymod.lionfish" : "Pesce scorpione",
+  "entity.organicallymod.sandstrider" : "Desertola",
+  "entity.organicallymod.gnawer" : "Masticatore",
+
+
+  "effect.organicallymod.electrified" : "Elettrificato",
+
+  "death.attack.electric" : "%1$s è stato/a elettrificato/a",
+  "death.attack.electric.player" : "%1$s è stato/a elettrificato/a da %2$s",
+  "death.attack.electric.mob" : "%1$s è stato/a elettrificato/a da %2$s",
+
+
+  "advancements.adventure.sandrunner.title" : "Corridune",
+  "advancements.adventure.sandrunner.description" : "Corri sulla sabbia indossando stivali di desertola",
+
+  "advancements.adventure.rivers_desert.title" : "Meraviglia del deserto",
+  "advancements.adventure.rivers_desert.description" : "Trova una rosa del deserto",
+
+  "advancements.adventure.zap.title" : "Zap!",
+  "advancements.adventure.zap.description" : "Colpisci una creatura con uno spuntone di pesce scorpione",
+
+  "advancements.husbandry.cocofruit.title" : "Cocco bello!",
+  "advancements.husbandry.cocofruit.description" : "Ottieni una noce di cocco"
+}

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "organicallymod:sea_rock"
+  },
+  "result": {
+    "id": "organicallymod:sea_rock_stairs"
+  }
+}

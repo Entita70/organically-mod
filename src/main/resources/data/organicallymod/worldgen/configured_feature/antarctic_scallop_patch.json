@@ -1,0 +1,8 @@
+{
+  "type": "organicallymod:underwater_patch",
+  "config": {
+    "state": {
+      "Name": "organicallymod:antarctic_scallop"
+    }
+  }
+}

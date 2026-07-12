@@ -1,0 +1,7 @@
+{
+	"parent": "organicallymod:block/bush",
+	"textures": {
+		"all": "organicallymod:block/saltbush",
+		"particle": "organicallymod:item/saltbush"
+	}
+}

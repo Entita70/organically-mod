@@ -25,11 +25,11 @@ public class OrganicallyModEntityTypes {
 
     public static final EntityType<SandStriderEntity> SANDSTRIDER = Registry.register(Registries.ENTITY_TYPE,
             Identifier.of(OrganicallyMod.MOD_ID, "sandstrider"),
-            EntityType.Builder.create(SandStriderEntity::new, SpawnGroup.MONSTER).dimensions(1.4f, 0.7f).eyeHeight(0.5F).maxTrackingRange(20).build());
+            EntityType.Builder.create(SandStriderEntity::new, SpawnGroup.MONSTER).dimensions(1.1f, 0.7f).eyeHeight(0.4F).maxTrackingRange(20).build());
 
     public static final EntityType<GnawerEntity> GNAWER = Registry.register(Registries.ENTITY_TYPE,
             Identifier.of(OrganicallyMod.MOD_ID, "gnawer"),
-            EntityType.Builder.create(GnawerEntity::new, SpawnGroup.CREATURE).dimensions(1.4f, 1.2f).eyeHeight(1f).passengerAttachments(1.5f).nameTagAttachment(2f).maxTrackingRange(10).build());
+            EntityType.Builder.create(GnawerEntity::new, SpawnGroup.CREATURE).dimensions(1.4f, 1.2f).eyeHeight(1f).passengerAttachments(1.5f).nameTagAttachment(1.0f).maxTrackingRange(10).build());
 
 
 

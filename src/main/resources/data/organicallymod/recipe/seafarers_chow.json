@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:bowl"
+    },
+    {
+      "tag": "organicallymod:cooked_fishes"
+    },
+    {
+      "item": "organicallymod:coconut_slice"
+    },
+    {
+      "tag": "organicallymod:mollusks"
+    }
+  ],
+  "result": {
+    "id": "organicallymod:seafarers_chow"
+  }
+}

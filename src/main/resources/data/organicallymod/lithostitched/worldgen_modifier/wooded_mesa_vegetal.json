@@ -1,0 +1,10 @@
+{
+  "type": "lithostitched:add_features",
+  "biomes": [
+    "minecraft:wooded_badlands"
+  ],
+  "features": [
+    "organicallymod:patch_desert_shaggy_mane_wooded_mesa"
+  ],
+  "step": "vegetal_decoration"
+}

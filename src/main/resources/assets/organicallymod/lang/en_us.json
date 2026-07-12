@@ -4,6 +4,7 @@
   "item.organicallymod.lionfish" : "Lionfish",
   "item.organicallymod.cooked_lionfish" : "Cooked Lionfish",
   "item.organicallymod.lionfish_spike" : "Lionfish Spike",
+  "item.organicallymod.seafarers_chow" : "Seafarer's Chow",
   "item.organicallymod.lionfish_bucket" : "Bucket of Lionfish",
   "item.organicallymod.lionfish_spawn_egg" : "Lionfish Spawn Egg",
   "item.organicallymod.sandstrider_spawn_egg" : "Sandstrider Spawn Egg",
@@ -48,6 +49,23 @@
   "block.organicallymod.palm_hanging_wall_sign" : "Palm Hanging Sign",
   "block.organicallymod.fluorescent_block" : "Fluorescent Block",
 
+  "block.organicallymod.mollusks" : "Mollusks",
+  "block.organicallymod.scallop" : "Scallop",
+  "block.organicallymod.antarctic_scallop" : "Antarctic Scallop",
+  "block.organicallymod.sea_rock" : "Sea Rock",
+  "block.organicallymod.sea_rock_stairs" : "Sea Rock Stairs",
+  "block.organicallymod.sea_rock_slab" : "Sea Rock Slab",
+  "block.organicallymod.sea_rock_wall" : "Sea Rock Wall",
+  "block.organicallymod.polished_sea_rock" : "Polished Sea Rock",
+  "block.organicallymod.polished_sea_rock_stairs" : "Polished Sea Rock Stairs",
+  "block.organicallymod.polished_sea_rock_slab" : "Polished Sea Rock Slab",
+  "block.organicallymod.polished_sea_rock_wall" : "Polished Sea Rock Wall",
+  "block.organicallymod.sea_rock_bricks" : "Sea Rock Bricks",
+  "block.organicallymod.sea_rock_bricks_stairs" : "Sea Rock Bricks Stairs",
+  "block.organicallymod.sea_rock_bricks_slab" : "Sea Rock Bricks Slab",
+  "block.organicallymod.sea_rock_brick_wall" : "Sea Rock Brick Wall",
+  "block.organicallymod.chiseled_sea_rock_bricks" : "Chiseled Sea Rock Bricks",
+
 
 
   "block.organicallymod.brittlebush" : "Brittlebush",
@@ -62,6 +80,8 @@
   "block.organicallymod.potted_triodia" : "Potted Triodia",
   "block.organicallymod.snake_plant" : "Snake Plant",
   "block.organicallymod.potted_snake_plant" : "Potted Snake Plant",
+  "block.organicallymod.saltbush" : "Saltbush",
+
 
   "block.organicallymod.fossil_clump" : "Fossil Clump",
   "block.organicallymod.helix_fossil" : "Helix Fossil",
@@ -71,13 +91,27 @@
 
   "block.organicallymod.active_desert_rose_cluster" : "Active Desert Rose Cluster",
   "block.organicallymod.active_mesa_rose_cluster" : "Active Mesa Rose Cluster",
-  "block.organicallymod.desert_rose_cluster_block" : "Desert Rose Cluster Block",
+  "block.organicallymod.desert_rose_block" : "Desert Rose Block",
+  "block.organicallymod.desert_rose_stairs" : "Desert Rose Stairs",
+  "block.organicallymod.desert_rose_slab" : "Desert Rose Slab",
+  "block.organicallymod.desert_rose_wall" : "Desert Rose Wall",
+  "block.organicallymod.polished_desert_rose_block" : "Polished Desert Rose Block",
+  "block.organicallymod.polished_desert_rose_stairs" : "Polished Desert Rose Stairs",
+  "block.organicallymod.polished_desert_rose_slab" : "Polished Desert Rose Slab",
+  "block.organicallymod.polished_desert_rose_wall" : "Polished Desert Rose Wall",
   "block.organicallymod.desert_rose_cluster" : "Desert Rose Cluster",
+  "block.organicallymod.mesa_rose_block" : "Mesa Rose Block",
+  "block.organicallymod.mesa_rose_stairs" : "Mesa Rose Stairs",
+  "block.organicallymod.mesa_rose_slab" : "Mesa Rose Slab",
+  "block.organicallymod.mesa_rose_wall" : "Mesa Rose Wall",
+  "block.organicallymod.polished_mesa_rose_block" : "Polished Mesa Rose Block",
+  "block.organicallymod.polished_mesa_rose_stairs" : "Polished Mesa Rose Stairs",
+  "block.organicallymod.polished_mesa_rose_slab" : "Polished Mesa Rose Slab",
+  "block.organicallymod.polished_mesa_rose_wall" : "Polished Mesa Rose Wall",
   "block.organicallymod.mesa_rose_cluster" : "Mesa Rose Cluster",
-  "block.organicallymod.mesa_rose_cluster_block" : "Mesa Rose Cluster Block",
 
 
-
+  "biome.organicallymod.arid_plains" : "Arid Plains",
 
 
 

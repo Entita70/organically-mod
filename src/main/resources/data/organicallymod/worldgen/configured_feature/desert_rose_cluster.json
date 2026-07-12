@@ -1,13 +1,19 @@
 {
   "type": "organicallymod:desert_rose",
   "config": {
-    "cluster": {
+    "block": {
       "type": "minecraft:simple_state_provider",
       "state": {
         "Name": "organicallymod:active_desert_rose_cluster",
         "Properties": {
           "age": 2
         }
+      }
+    },
+    "cluster": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "organicallymod:desert_rose_cluster"
       }
     }
   }

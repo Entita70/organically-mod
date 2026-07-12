@@ -16,7 +16,7 @@ public record DesertFormationFeatureConfig(BlockStateProvider main, BlockStatePr
                     return desertFormationFeatureConfig.rare;}),
 
                 Codec.floatRange(0.0f, 1.0f).fieldOf("chance").forGetter((desertFormationFeatureConfig) -> {
-                    return desertFormationFeatureConfig.chance;})
-        ).apply(instance, DesertFormationFeatureConfig::new);});
+                    return desertFormationFeatureConfig.chance;
+                })).apply(instance, DesertFormationFeatureConfig::new);});
 
 }

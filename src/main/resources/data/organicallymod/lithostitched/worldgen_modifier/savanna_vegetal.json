@@ -1,0 +1,9 @@
+{
+  "type": "lithostitched:add_features",
+  "biomes": "#minecraft:is_savanna",
+  "features": [
+    "organicallymod:patch_snake_plant_savanna",
+    "organicallymod:patch_saltbush_savanna"
+  ],
+  "step": "vegetal_decoration"
+}

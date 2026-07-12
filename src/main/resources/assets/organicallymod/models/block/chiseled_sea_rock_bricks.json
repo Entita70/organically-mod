@@ -1,0 +1,6 @@
+{
+	"parent": "minecraft:block/cube_all",
+	"textures": {
+		"all": "organicallymod:block/chiseled_sea_rock_bricks"
+	}
+}

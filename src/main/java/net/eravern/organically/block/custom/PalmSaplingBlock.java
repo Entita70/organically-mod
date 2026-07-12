@@ -3,13 +3,11 @@ package net.eravern.organically.block.custom;
 import net.eravern.organically.block.OrganicallyModBlocks;
 import net.eravern.organically.item.OrganicallyModItems;
 import net.minecraft.block.*;
-import net.minecraft.entity.ItemEntity;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Items;
 import net.minecraft.registry.tag.BlockTags;
-import net.minecraft.registry.tag.ItemTags;
 import net.minecraft.sound.SoundCategory;
 import net.minecraft.sound.SoundEvents;
 import net.minecraft.util.Hand;
@@ -19,6 +17,7 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.shape.VoxelShape;
 import net.minecraft.world.BlockView;
 import net.minecraft.world.World;
+import net.minecraft.world.WorldView;
 
 public class PalmSaplingBlock extends SaplingBlock {
     protected static final VoxelShape COCONUT = Block.createCuboidShape(4.0, 0.0, 4.0, 12.0, 8.0, 12.0);
@@ -32,6 +31,11 @@ public class PalmSaplingBlock extends SaplingBlock {
     @Override
     protected VoxelShape getOutlineShape(BlockState state, BlockView world, BlockPos pos, ShapeContext context) {
         return COCONUT;
+    }
+
+    @Override
+    public ItemStack getPickStack(WorldView world, BlockPos pos, BlockState state) {
+        return OrganicallyModItems.COCONUT.getDefaultStack();
     }
 
     @Override

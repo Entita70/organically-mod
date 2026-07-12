@@ -1,0 +1,8 @@
+{
+  "type": "organicallymod:sea_pillar",
+  "config": {
+    "state": {
+      "Name": "organicallymod:sea_rock"
+    }
+  }
+}
