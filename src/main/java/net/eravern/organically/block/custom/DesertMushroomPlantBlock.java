@@ -27,6 +27,6 @@ public class DesertMushroomPlantBlock extends MushroomPlantBlock {
 
     @Override
     protected boolean canPlaceAt(BlockState state, WorldView world, BlockPos pos) {
-        return super.canPlaceAt(state, world, pos) || world.getBlockState(pos.down()).isIn(OrganicallyModBlockTags.DESERT_MUSHROOMS_GROW);
+        return (world.getBlockState(pos.down()).isIn(OrganicallyModBlockTags.DESERT_MUSHROOMS_GROW) || world.getBaseLightLevel(pos, 0) < 13);
     }
 }

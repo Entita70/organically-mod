@@ -41,6 +41,9 @@ public class OrganicallyModItems {
     public static final Item CALCIUM = registerItem("calcium", new Item(new Item.Settings()));
     public static final Item ACTIVE_POWDER = registerItem("active_powder", new ActivePowderItem(new Item.Settings()));
     public static final Item SEAFARERS_CHOW = registerItem("seafarers_chow", new Item(new Item.Settings().food(OrganicallyFoodComponents.SEAFARERS_CHOW).maxCount(16)));
+    public static final Item ROASTED_DESERT_SHAGGY_MANE = registerItem("roasted_desert_shaggy_mane", new Item(new Item.Settings().food(OrganicallyFoodComponents.ROASTED_DESERT_SHAGGY_MANE)));
+
+
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(OrganicallyMod.MOD_ID, name), item);
@@ -67,7 +70,7 @@ public class OrganicallyModItems {
             entries.addAfter(Items.BEETROOT, COCONUT_SLICE);
             entries.addAfter(COCONUT_SLICE, PALM_SALAD);
             entries.addAfter(Items.BEETROOT_SOUP, SEAFARERS_CHOW);
-
+            entries.addAfter(PALM_SALAD, ROASTED_DESERT_SHAGGY_MANE);
 
         });
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.SPAWN_EGGS).register(entries -> {

@@ -4,7 +4,8 @@
     "minecraft:wooded_badlands"
   ],
   "features": [
-    "organicallymod:patch_desert_shaggy_mane_wooded_mesa"
+    "organicallymod:patch_desert_shaggy_mane_wooded_mesa",
+    "organicallymod:huge_desert_shaggy_mane_wooded_mesa"
   ],
   "step": "vegetal_decoration"
 }

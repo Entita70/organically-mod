@@ -19,10 +19,16 @@ public class HugeDesertShaggyManeMushroomFeature extends HugeMushroomFeature {
         BlockState blockState = config.capProvider.get(random, start);
         int r = (config.foliageRadius - 1)*2 + 3;
         int distance = config.foliageRadius - 1;
-        int startingY = 3;
+        int startingY = 2;
         int finalY = y+1;
-        if (y < 5){
-            startingY = 2;
+        if (y > 5 && y <= 7){
+            startingY = 3;
+        }else if (y > 7 && y <= 9){
+            startingY = 4;
+        }else if (y > 9 && y <= 11){
+            startingY = 5;
+        }else if (y > 11){
+            startingY = 6;
         }
 
         mutable.set(start, 0, finalY ,0);

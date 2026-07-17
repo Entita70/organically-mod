@@ -9,4 +9,5 @@ public class OrganicallyFoodComponents {
     public static final FoodComponent COCONUT_SLICE = (new FoodComponent.Builder()).nutrition(2).saturationModifier(0.3f).build();
     public static final FoodComponent PALM_SALAD = (new FoodComponent.Builder()).nutrition(3).saturationModifier(0.5f).build();
     public static final FoodComponent SEAFARERS_CHOW = (new FoodComponent.Builder()).nutrition(7).saturationModifier(0.7F).usingConvertsTo(Items.BOWL).build();
+    public static final FoodComponent ROASTED_DESERT_SHAGGY_MANE = (new FoodComponent.Builder()).nutrition(4).saturationModifier(0.4f).build();
 }
