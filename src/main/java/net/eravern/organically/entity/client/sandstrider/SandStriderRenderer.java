@@ -6,6 +6,7 @@ import net.minecraft.client.render.VertexConsumerProvider;
 import net.minecraft.client.render.entity.EntityRendererFactory;
 import net.minecraft.client.render.entity.MobEntityRenderer;
 import net.minecraft.client.util.math.MatrixStack;
+import net.minecraft.util.Formatting;
 import net.minecraft.util.Identifier;
 
 import java.util.Objects;
@@ -15,6 +16,8 @@ public class SandStriderRenderer extends MobEntityRenderer<SandStriderEntity, Sa
     public static final Identifier DESERT_ANGRY = Identifier.of(OrganicallyMod.MOD_ID, "textures/entity/sandstrider/angry/sandstrider.png");
     public static final Identifier MESA = Identifier.of(OrganicallyMod.MOD_ID, "textures/entity/sandstrider/sandstrider_mesa.png");
     public static final Identifier MESA_ANGRY = Identifier.of(OrganicallyMod.MOD_ID, "textures/entity/sandstrider/angry/sandstrider_mesa.png");
+    public static final Identifier NIKO = Identifier.of(OrganicallyMod.MOD_ID, "textures/entity/sandstrider/niko.png");
+    public static final Identifier NIKO_ANGRY = Identifier.of(OrganicallyMod.MOD_ID, "textures/entity/sandstrider/angry/niko.png");
 
 
 
@@ -43,6 +46,14 @@ public class SandStriderRenderer extends MobEntityRenderer<SandStriderEntity, Sa
                 TEXTURE = DESERT_ANGRY;
             }else{
                 TEXTURE = DESERT;
+            }
+        }
+        String string = Formatting.strip(entity.getName().getString()).toLowerCase();
+        if (string.equals("niko") || string.equals("xeno") || string.equals("not a cat")){
+            if (entity.isAngry()){
+                TEXTURE = NIKO_ANGRY;
+            }else{
+                TEXTURE = NIKO;
             }
         }
         return TEXTURE;
