@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "organicallymod:cooked_lionfish"
+    },
+    {
+      "item": "farmersdelight:tomato"
+    },
+    {
+      "item": "organicallymod:roasted_desert_shaggy_mane"
+    },
+    {
+      "item": "organicallymod:roasted_desert_shaggy_mane"
+    }
+  ],
+  "result": {
+    "id": "organicallymod:mesa_style_lionfish"
+  }
+}

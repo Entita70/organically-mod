@@ -8,7 +8,7 @@
     "organicallymod:desert_shaggy_mane_block",
     "organicallymod:triodia",
     "organicallymod:palm_hanging_sign",
-    "organicallymod:palm_wall_hanging_sign"
-
+    "organicallymod:palm_wall_hanging_sign",
+    { "id": "organicallymod:palm_cabinet", "required": false }
   ]
 }

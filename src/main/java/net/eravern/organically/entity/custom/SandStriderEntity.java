@@ -22,6 +22,7 @@ import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.entity.mob.HostileEntity;
 import net.minecraft.entity.passive.MerchantEntity;
 import net.minecraft.entity.passive.RabbitEntity;
+import net.minecraft.entity.passive.VillagerEntity;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.ItemStack;
 import net.minecraft.nbt.NbtCompound;
@@ -235,12 +236,22 @@ public class SandStriderEntity extends HostileEntity {
     }
 
     private static class TargetGoal<T extends LivingEntity> extends ActiveTargetGoal<T> {
+        VillagerEntity villagerEntity;
         public TargetGoal(SandStriderEntity strider, Class<T> targetEntityClass) {
             super(strider, targetEntityClass, true);
+            if (targetEntity instanceof VillagerEntity villager){
+                villagerEntity = villager;
+            }
         }
 
         public boolean canStart() {
-            return super.canStart();
+            boolean baby = true;
+            if (villagerEntity != null){
+                if (villagerEntity.isBaby()){
+                    baby = false;
+                }
+            }
+            return super.canStart() && baby;
         }
     }
 

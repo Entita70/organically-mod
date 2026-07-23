@@ -1,6 +1,8 @@
 {
   "replace": false,
   "values": [
-    "organicallymod:palm_fence"
+    "organicallymod:palm_fence",
+    { "id": "organicallymod:palm_cabinet", "required": false }
+
   ]
 }

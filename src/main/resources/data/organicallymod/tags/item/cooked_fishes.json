@@ -2,7 +2,9 @@
   "values": [
     "organicallymod:cooked_lionfish",
     "minecraft:cooked_cod",
-    "minecraft:cooked_salmon"
-
+    "minecraft:cooked_salmon",
+    { "id": "organicallymod:cooked_lionfish_slice", "required": false },
+    { "id": "farmersdelight:cooked_cod_slice", "required": false },
+    { "id": "farmersdelight:cooked_salmon_slice", "required": false }
   ]
 }

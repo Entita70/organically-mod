@@ -1,0 +1,6 @@
+{
+  "values": [
+    "organicallymod:lionfish",
+    { "id": "organicallymod:lionfish_slice", "required": false }
+  ]
+}

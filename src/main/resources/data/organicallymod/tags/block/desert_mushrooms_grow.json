@@ -1,6 +1,7 @@
 {
   "values": [
     "minecraft:sand",
-    "minecraft:coarse_dirt"
+    "minecraft:coarse_dirt",
+    "#minecraft:mushroom_grow_block"
   ]
 }

@@ -140,7 +140,7 @@ public class OrganicallyModBlocks {
                     .pistonBehavior(PistonBehavior.DESTROY)));
 
     public static final Block DESERT_SHAGGY_MANE = registerBlock("desert_shaggy_mane",
-            new DesertMushroomPlantBlock(OrganicallyModConfiguredFeatures.HUGE_DESERT_SHAGGY_MANE,AbstractBlock.Settings.create()
+            new DesertShaggyManePlantBlock(OrganicallyModConfiguredFeatures.HUGE_DESERT_SHAGGY_MANE,AbstractBlock.Settings.create()
                     .mapColor(MapColor.DIRT_BROWN).noCollision().ticksRandomly()
                     .breakInstantly().sounds(BlockSoundGroup.GRASS).postProcess(Blocks::always)
                     .pistonBehavior(PistonBehavior.DESTROY)));

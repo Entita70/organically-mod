@@ -6,6 +6,8 @@
     "BoatDropsMixin",
     "BoatTypeMixin",
     "ChestBoatDropsMixin",
+    "ElectrifiedBottleMixin",
+    "ElectrifiedMixin",
     "FoliagePlacerTypeInvokerMixin",
     "TreeDecoratorTypeInvokerMixin",
     "TrunkPlacerTypeInvokerMixin"

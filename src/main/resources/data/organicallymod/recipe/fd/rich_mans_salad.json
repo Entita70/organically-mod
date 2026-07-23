@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:bowl"
+    },
+    {
+      "item": "organicallymod:coconut_slice"
+    },
+    {
+      "item": "organicallymod:palm_salad"
+    },
+    {
+      "item": "organicallymod:palm_salad"
+    },
+    {
+      "item": "minecraft:gold_nugget"
+    },
+    {
+      "item": "minecraft:gold_nugget"
+    }
+  ],
+  "result": {
+    "id": "organicallymod:rich_mans_salad"
+  }
+}

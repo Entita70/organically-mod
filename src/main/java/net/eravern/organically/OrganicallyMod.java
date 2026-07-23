@@ -5,6 +5,7 @@ import net.eravern.organically.entity.OrganicallyModEntityTypes;
 import net.eravern.organically.entity.custom.GnawerEntity;
 import net.eravern.organically.entity.custom.LionfishEntity;
 import net.eravern.organically.entity.custom.SandStriderEntity;
+import net.eravern.organically.farmers_delight.block.FDCompatBlocks;
 import net.eravern.organically.item.OrganicallyModItems;
 import net.eravern.organically.mixin.FoliagePlacerTypeInvokerMixin;
 import net.eravern.organically.mixin.TreeDecoratorTypeInvokerMixin;
@@ -24,13 +25,13 @@ import net.fabricmc.fabric.api.registry.CompostingChanceRegistry;
 import net.fabricmc.fabric.api.registry.FlammableBlockRegistry;
 import net.fabricmc.fabric.api.registry.FuelRegistry;
 import net.fabricmc.fabric.api.registry.StrippableBlockRegistry;
+import net.fabricmc.loader.api.FabricLoader;
 import net.minecraft.block.BlockSetType;
+import net.minecraft.block.DispenserBlock;
 import net.minecraft.block.WoodType;
 import net.minecraft.block.entity.BlockEntityType;
 import net.minecraft.entity.SpawnLocationTypes;
 import net.minecraft.entity.SpawnRestriction;
-import net.minecraft.entity.data.DataTracker;
-import net.minecraft.entity.data.TrackedData;
 import net.minecraft.entity.data.TrackedDataHandler;
 import net.minecraft.entity.data.TrackedDataHandlerRegistry;
 import net.minecraft.entity.passive.PufferfishEntity;
@@ -44,6 +45,7 @@ import net.minecraft.world.gen.treedecorator.TreeDecoratorType;
 import net.minecraft.world.gen.trunk.TrunkPlacerType;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import vectorwing.farmersdelight.common.registry.ModBlockEntityTypes;
 
 public class OrganicallyMod implements ModInitializer {
 	public static final String MOD_ID = "organicallymod";
@@ -64,9 +66,9 @@ public class OrganicallyMod implements ModInitializer {
 	public void onInitialize() {
 
 		OrganicallyModRegister.registerAll();
+		OrganicallyModRegister.registerFD();
 
 		OrganicallyModVillagerTradeRegister.registerVillagerTrades();
-
 
 		SpawnRestriction.register(OrganicallyModEntityTypes.LIONFISH, SpawnLocationTypes.IN_WATER, Heightmap.Type.OCEAN_FLOOR, PufferfishEntity::canSpawn);
 		FabricDefaultAttributeRegistry.register(OrganicallyModEntityTypes.LIONFISH, LionfishEntity.createFishAttributes());
@@ -159,5 +161,16 @@ public class OrganicallyMod implements ModInitializer {
 		BlockEntityType.HANGING_SIGN.addSupportedBlock(OrganicallyModBlocks.PALM_HANGING_SIGN);
 		BlockEntityType.HANGING_SIGN.addSupportedBlock(OrganicallyModBlocks.PALM_WALL_HANGING_SIGN);
 
+		DispenserBlock.registerProjectileBehavior(OrganicallyModItems.LIONFISH_SPIKE);
+
+
+
+
+
+		if (FabricLoader.getInstance().isModLoaded("farmersdelight")){
+			FuelRegistry.INSTANCE.add(FDCompatBlocks.PALM_CABINET, 300);
+			FlammableBlockRegistry.getDefaultInstance().add(FDCompatBlocks.PALM_CABINET, 5, 10);
+			ModBlockEntityTypes.CABINET.get().addSupportedBlock(FDCompatBlocks.PALM_CABINET);
+		}
 	}
 }

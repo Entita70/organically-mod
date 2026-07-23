@@ -3,10 +3,14 @@ package net.eravern.organically.item;
 import net.eravern.organically.OrganicallyMod;
 import net.eravern.organically.block.OrganicallyModBlocks;
 import net.eravern.organically.entity.OrganicallyModEntityTypes;
+import net.eravern.organically.farmers_delight.item.FDCompatItemGetter;
+import net.eravern.organically.farmers_delight.item.FDFoodComponents;
 import net.eravern.organically.item.custom.*;
 import net.eravern.organically.register.OrganicallyModBoatTypes;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
+import net.fabricmc.loader.api.FabricLoader;
 import net.minecraft.component.DataComponentTypes;
+import net.minecraft.component.type.FoodComponent;
 import net.minecraft.component.type.NbtComponent;
 import net.minecraft.fluid.Fluids;
 import net.minecraft.item.*;
@@ -40,10 +44,28 @@ public class OrganicallyModItems {
     public static final Item FLUORESCENT_MUCUS = registerItem("fluorescent_mucus", new FluorescentMucusItem(new Item.Settings()));
     public static final Item CALCIUM = registerItem("calcium", new Item(new Item.Settings()));
     public static final Item ACTIVE_POWDER = registerItem("active_powder", new ActivePowderItem(new Item.Settings()));
-    public static final Item SEAFARERS_CHOW = registerItem("seafarers_chow", new Item(new Item.Settings().food(OrganicallyFoodComponents.SEAFARERS_CHOW).maxCount(16)));
     public static final Item ROASTED_DESERT_SHAGGY_MANE = registerItem("roasted_desert_shaggy_mane", new Item(new Item.Settings().food(OrganicallyFoodComponents.ROASTED_DESERT_SHAGGY_MANE)));
+    public static final Item ELECTRIFIED_BOTTLE = registerItem("electrified_bottle", new ElectrifiedBottleItem(new Item.Settings().food(OrganicallyFoodComponents.ELECTRIFIED_BOTTLE).maxCount(1).recipeRemainder(Items.GLASS_BOTTLE)));
+
+    public static final Item SEAFARERS_CHOW = registerItem("seafarers_chow", createStewItem(seafarersFoodComponent()));
 
 
+
+    private static FoodComponent seafarersFoodComponent(){
+        if (!(FabricLoader.getInstance().isModLoaded("farmersdelight"))){
+            return OrganicallyFoodComponents.SEAFARERS_CHOW;
+        }else{
+            return FDFoodComponents.SEAFARERS_CHOW;
+        }
+    }
+
+    private static Item createStewItem(FoodComponent foodComponent){
+        if (!(FabricLoader.getInstance().isModLoaded("farmersdelight"))){
+            return new Item(new Item.Settings().food(foodComponent).maxCount(1).recipeRemainder(Items.BOWL));
+        }else{
+            return FDCompatItemGetter.getFDStewItem(foodComponent);
+        }
+    }
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(OrganicallyMod.MOD_ID, name), item);
@@ -71,6 +93,8 @@ public class OrganicallyModItems {
             entries.addAfter(COCONUT_SLICE, PALM_SALAD);
             entries.addAfter(Items.BEETROOT_SOUP, SEAFARERS_CHOW);
             entries.addAfter(PALM_SALAD, ROASTED_DESERT_SHAGGY_MANE);
+            entries.addAfter(Items.COOKED_SALMON, LIONFISH);
+            entries.addAfter(COOKED_LIONFISH, ELECTRIFIED_BOTTLE);
 
         });
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.SPAWN_EGGS).register(entries -> {

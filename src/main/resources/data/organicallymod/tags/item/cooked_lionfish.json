@@ -1,0 +1,6 @@
+{
+  "values": [
+    "organicallymod:cooked_lionfish",
+    { "id": "organicallymod:cooked_lionfish_slice", "required": false }
+  ]
+}

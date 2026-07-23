@@ -4,6 +4,7 @@
   "item.organicallymod.lionfish" : "Lionfish",
   "item.organicallymod.cooked_lionfish" : "Cooked Lionfish",
   "item.organicallymod.lionfish_spike" : "Lionfish Spike",
+  "item.organicallymod.electrified_bottle" : "Electrified Bottle",
   "item.organicallymod.seafarers_chow" : "Seafarer's Chow",
   "item.organicallymod.lionfish_bucket" : "Bucket of Lionfish",
   "item.organicallymod.lionfish_spawn_egg" : "Lionfish Spawn Egg",
@@ -112,6 +113,11 @@
   "block.organicallymod.mesa_rose_cluster" : "Mesa Rose Cluster",
 
 
+  "item.organicallymod.electrified_bottle.tooltip1": "§7Obtained by shift right-clicking§r",
+  "item.organicallymod.electrified_bottle.tooltip2": "§7while holding a water bottle and§r",
+  "item.organicallymod.electrified_bottle.tooltip3": "§7a lionfish spike in the offhand§r",
+
+
   "biome.organicallymod.arid_plains" : "Arid Plains",
 
 
@@ -139,5 +145,22 @@
   "advancements.adventure.zap.description" : "Hit a mob with a lionfish spike",
 
   "advancements.husbandry.cocofruit.title" : "Cocofruit",
-  "advancements.husbandry.cocofruit.description" : "Obtain the fruit of the coconut tree"
+  "advancements.husbandry.cocofruit.description" : "Obtain the fruit of the coconut tree",
+
+
+
+
+
+  "item.organicallymod.lionfish_slice" : "Lionfish Slice",
+  "item.organicallymod.cooked_lionfish_slice" : "Cooked Lionfish Slice",
+  "item.organicallymod.desert_shaggy_mane_colony" : "Desert Shaggy Mane Colony",
+  "item.organicallymod.mesa_style_lionfish" : "Mesa Style Lionfish",
+  "item.organicallymod.rich_mans_salad" : "Rich Man's Salad",
+  "item.organicallymod.mushroom_and_tomato_soup" : "Mushroom And Tomato Soup",
+  "item.organicallymod.electrified_stew" : "Electrified Stew",
+
+
+  "block.organicallymod.palm_cabinet" : "Palm Cabinet",
+  "block.organicallymod.desert_shaggy_mane_colony" : "Desert Shaggy Mane Colony"
+
 }

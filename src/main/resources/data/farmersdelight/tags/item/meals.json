@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    { "id": "organicallymod:seafarers_chow", "required": false },
+    { "id": "organicallymod:rich_mans_salad", "required": false },
+    { "id": "organicallymod:mushroom_and_tomato_soup", "required": false },
+    { "id": "organicallymod:electrified_stew", "required": false }
+
+  ]
+}

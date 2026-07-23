@@ -4,6 +4,7 @@
   "item.organicallymod.lionfish" : "Pesce scorpione",
   "item.organicallymod.cooked_lionfish" : "Pesce scorpione cotto",
   "item.organicallymod.lionfish_spike" : "Spuntone di pesce scorpione",
+  "item.organicallymod.electrified_bottle" : "Ampolla elettrizzata",
   "item.organicallymod.seafarers_chow" : "Zuppa del marinaio",
   "item.organicallymod.lionfish_bucket" : "Secchio di pesce scorpione",
   "item.organicallymod.lionfish_spawn_egg" : "Uovo generatore di pesce scorpione",
@@ -112,6 +113,11 @@
   "block.organicallymod.mesa_rose_cluster" : "Rosa della mesa",
 
 
+  "item.organicallymod.electrified_bottle.tooltip1": "§7Ottenuta premendo shift-tasto destro§r",
+  "item.organicallymod.electrified_bottle.tooltip2": "§7mentre si ha in mano un'ampolla d'acqua§r",
+  "item.organicallymod.electrified_bottle.tooltip3": "§7e uno spuntone di pesce scorpione nella seconda mano§r",
+
+
   "biome.organicallymod.arid_plains" : "Pianure aride",
 
 
@@ -139,5 +145,21 @@
   "advancements.adventure.zap.description" : "Colpisci una creatura con uno spuntone di pesce scorpione",
 
   "advancements.husbandry.cocofruit.title" : "Cocco bello!",
-  "advancements.husbandry.cocofruit.description" : "Ottieni una noce di cocco"
+  "advancements.husbandry.cocofruit.description" : "Ottieni una noce di cocco",
+
+
+
+
+  "item.organicallymod.lionfish_slice" : "Fetta di pesce scorpione crudo",
+  "item.organicallymod.cooked_lionfish_slice" : "Fetta di pesce scorpione cotto",
+  "item.organicallymod.desert_shaggy_mane_colony" : "Colonia di coprinus deserticola",
+  "item.organicallymod.mesa_style_lionfish" : "Pesce scorpione alla mesa",
+  "item.organicallymod.rich_mans_salad" : "Insalata del miliardario",
+  "item.organicallymod.mushroom_and_tomato_soup" : "Sugo ai funghi",
+  "item.organicallymod.electrified_stew" : "Zuppa elettrizzata",
+
+
+  "block.organicallymod.palm_cabinet" : "Dispensa di palma",
+  "block.organicallymod.desert_shaggy_mane_colony" : "Colonia di coprinus deserticola"
+
 }

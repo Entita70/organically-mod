@@ -1,0 +1,7 @@
+
+{
+	"parent": "minecraft:block/cross",
+	"textures": {
+		"cross": "organicallymod:block/desert_shaggy_mane_colony_stage3"
+	}
+}

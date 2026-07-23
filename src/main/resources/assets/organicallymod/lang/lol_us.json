@@ -4,6 +4,7 @@
   "item.organicallymod.lionfish" : "Bigcat Fis",
   "item.organicallymod.cooked_lionfish" : "Cookd Big Catz Fis",
   "item.organicallymod.lionfish_spike" : "Bigcat Fis Pointi ting",
+  "item.organicallymod.electrified_bottle" : "Zapped buttle",
   "item.organicallymod.seafarers_chow" : "Yummi Fis Man Boul",
   "item.organicallymod.lionfish_bucket" : "Bigcat Fis Buket",
   "item.organicallymod.lionfish_spawn_egg" : "Bigcat Fis spon ec",
@@ -112,6 +113,11 @@
   "block.organicallymod.mesa_rose_cluster" : "Red Litter Flour",
 
 
+  "item.organicallymod.electrified_bottle.tooltip1": "§7Bazically, tak a pointi ting from big§r",
+  "item.organicallymod.electrified_bottle.tooltip2": "§7catz, put it in a watr bottle wit§r",
+  "item.organicallymod.electrified_bottle.tooltip3": "§7yar offhand, you gotta do it crowchin' do§r",
+
+
   "biome.organicallymod.arid_plains" : "HOTZ FLAT PLAN",
 
 
@@ -139,5 +145,18 @@
   "advancements.adventure.zap.description" : "Zap a bad kitteh wit da bigCatz fis pointi ting",
 
   "advancements.husbandry.cocofruit.title" : "Da COCO!",
-  "advancements.husbandry.cocofruit.description" : "Get da coco o' da palm treeh"
+  "advancements.husbandry.cocofruit.description" : "Get da coco o' da palm treeh",
+
+
+
+  "item.organicallymod.lionfish_slice" : "Bigcat fis chunk",
+  "item.organicallymod.cooked_lionfish_slice" : "Yum Bigcat fis chunk",
+  "item.organicallymod.desert_shaggy_mane_colony" : "Litter mooshroom colony",
+  "item.organicallymod.mesa_style_lionfish" : "Red Bigcat fis",
+  "item.organicallymod.rich_mans_salad" : "shini brwn salad",
+  "item.organicallymod.mushroom_and_tomato_soup" : "moosh n' tato soop",
+  "item.organicallymod.electrified_stew" : "zappy soop",
+
+  "block.organicallymod.palm_cabinet" : "palm Hole",
+  "block.organicallymod.desert_shaggy_mane_colony" : "Litter mooshroom colony"
 }
